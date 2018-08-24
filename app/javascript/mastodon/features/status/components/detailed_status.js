@@ -7,7 +7,7 @@ import StatusContent from '../../../components/status_content';
 import MediaGallery from '../../../components/media_gallery';
 import AttachmentList from '../../../components/attachment_list';
 import { Link } from 'react-router-dom';
-import { FormattedDate, FormattedNumber } from 'react-intl';
+import { defineMessages, injectIntl, FormattedDate, FormattedNumber } from 'react-intl';
 import Card from './card';
 import ImmutablePureComponent from 'react-immutable-pure-component';
 import Video from '../../video';
@@ -15,6 +15,11 @@ import scheduleIdleTask from '../../ui/util/schedule_idle_task';
 import classNames from 'classnames';
 import Icon from 'mastodon/components/icon';
 
+const messages = defineMessages({
+  local_only: { id: 'status.local_only', defaultMessage: 'This post is only visible by other users of your instance' },
+});
+
+@injectIntl
 export default class DetailedStatus extends ImmutablePureComponent {
 
   static contextTypes = {
@@ -90,6 +95,7 @@ export default class DetailedStatus extends ImmutablePureComponent {
     const status = this.props.status.get('reblog') ? this.props.status.get('reblog') : this.props.status;
     const outerStyle = { boxSizing: 'border-box' };
     const { compact } = this.props;
+    const intl = this.props.intl;
 
     if (!status) {
       return null;
@@ -98,6 +104,7 @@ export default class DetailedStatus extends ImmutablePureComponent {
     let media           = '';
     let applicationLink = '';
     let reblogLink = '';
+    let localOnly = '';
     let reblogIcon = 'retweet';
     let favouriteLink = '';
 
@@ -190,6 +197,10 @@ export default class DetailedStatus extends ImmutablePureComponent {
       );
     }
 
+    if(status.get('local_only')) {
+      localOnly = <span> · <i className='fa fa-chain-broken' title={intl.formatMessage(messages.local_only)} /></span>;
+    }
+
     return (
       <div style={outerStyle}>
         <div ref={this.setRef} className={classNames('detailed-status', { compact })}>
@@ -205,7 +216,7 @@ export default class DetailedStatus extends ImmutablePureComponent {
           <div className='detailed-status__meta'>
             <a className='detailed-status__datetime' href={status.get('url')} target='_blank' rel='noopener'>
               <FormattedDate value={new Date(status.get('created_at'))} hour12={false} year='numeric' month='short' day='2-digit' hour='2-digit' minute='2-digit' />
-            </a>{applicationLink} · {reblogLink} · {favouriteLink}
+            </a>{applicationLink} · {reblogLink} · {favouriteLink}{localOnly}
           </div>
         </div>
       </div>
