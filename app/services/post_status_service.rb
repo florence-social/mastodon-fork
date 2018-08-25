@@ -93,6 +93,11 @@ class PostStatusService < BaseService
     end
   end
 
+  def local_only_option(local_only, in_reply_to)
+    return @in_reply_to&.local_only? if local_only.nil? # XXX temporary, just until clients implement to avoid leaking local_only posts
+    local_only
+  end
+
   def validate_media!
     return if @options[:media_ids].blank? || !@options[:media_ids].is_a?(Enumerable)
 
@@ -160,6 +165,7 @@ class PostStatusService < BaseService
       visibility: @visibility,
       language: language_from_option(@options[:language]) || @account.user&.setting_default_language&.presence || LanguageDetector.instance.detect(@text, @account),
       application: @options[:application],
+      local_only: local_only_option(@options[:local_only], @in_reply_to))
     }
   end
 
