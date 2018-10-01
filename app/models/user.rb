@@ -100,7 +100,8 @@ class User < ApplicationRecord
 
   delegate :auto_play_gif, :default_sensitive, :unfollow_modal, :boost_modal, :delete_modal,
            :reduce_motion, :system_font_ui, :noindex, :theme, :display_media, :hide_network,
-           :expand_spoilers, :default_language, :aggregate_reblogs, :show_application, to: :settings, prefix: :setting, allow_nil: false
+           :expand_spoilers, :default_language, :aggregate_reblogs, :show_application,
+           :default_federation, to: :settings, prefix: :setting, allow_nil: false
 
   attr_reader :invite_code
 

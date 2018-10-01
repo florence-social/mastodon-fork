@@ -93,8 +93,9 @@ class PostStatusService < BaseService
     end
   end
 
-  def local_only_option(local_only, in_reply_to)
-    return @in_reply_to&.local_only? if local_only.nil? # XXX temporary, just until clients implement to avoid leaking local_only posts
+  def local_only_option(local_only, in_reply_to, federation_setting)
+    return in_reply_to&.local_only? if local_only.nil? # XXX temporary, just until clients implement to avoid leaking local_only posts
+    return federation_setting if local_only.nil?
     local_only
   end
 
@@ -165,7 +166,7 @@ class PostStatusService < BaseService
       visibility: @visibility,
       language: language_from_option(@options[:language]) || @account.user&.setting_default_language&.presence || LanguageDetector.instance.detect(@text, @account),
       application: @options[:application],
-      local_only: local_only_option(@options[:local_only], @in_reply_to))
+      local_only: local_only_option(@options[:local_only], @in_reply_to, @account.user&.setting_default_federation)
     }
   end
 
