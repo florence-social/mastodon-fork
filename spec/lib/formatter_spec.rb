@@ -3,6 +3,7 @@ require 'rails_helper'
 RSpec.describe Formatter do
   let(:local_account)  { Fabricate(:account, domain: nil, username: 'alice') }
   let(:remote_account) { Fabricate(:account, domain: 'remote.test', username: 'bob', url: 'https://remote.test/') }
+  let(:twitter_account) { Fabricate(:account, domain: 'twitter.com', username: 'bob', url: 'https://twitter.com/') }
 
   shared_examples 'encode and link URLs' do
     context 'given a stand-alone medium URL' do
@@ -439,6 +440,16 @@ RSpec.describe Formatter do
 
         it 'creates a mention link' do
           is_expected.to eq '<p><span class="h-card"><a href="https://remote.test/" class="u-url mention">@<span>bob</span></a></span></p>'
+        end
+      end
+
+      context 'given a post containing linkable mentions for twitter accounts' do
+        let(:text) { '@bob@twitter.com' }
+
+        before { twitter_account }
+
+        it 'creates a mention link' do
+          is_expected.to eq '<p><span class="h-card"><a href="https://twitter.com/bob" class="u-url mention">@<span>bob@twitter.com</span></a></span></p>'
         end
       end
 
