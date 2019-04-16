@@ -323,6 +323,10 @@
       {
         "defaultMessage": "Open this status in the moderation interface",
         "id": "status.admin_status"
+      },
+      {
+        "defaultMessage": "Copy link to status",
+        "id": "status.copy"
       }
     ],
     "path": "app/javascript/mastodon/components/status_action_bar.json"
@@ -1984,6 +1988,10 @@
       {
         "defaultMessage": "Open this status in the moderation interface",
         "id": "status.admin_status"
+      },
+      {
+        "defaultMessage": "Copy link to status",
+        "id": "status.copy"
       }
     ],
     "path": "app/javascript/mastodon/features/status/components/action_bar.json"
