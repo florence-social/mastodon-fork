@@ -5,7 +5,7 @@ import { fromJS, is } from 'immutable';
 import { throttle } from 'lodash';
 import classNames from 'classnames';
 import { isFullscreen, requestFullscreen, exitFullscreen } from '../ui/util/fullscreen';
-import { displayMedia } from '../../initial_state';
+import { displayMedia, blurhashEnabled } from '../../initial_state';
 import Icon from 'mastodon/components/icon';
 import { decode } from 'blurhash';
 
@@ -107,6 +107,7 @@ class Video extends React.PureComponent {
     intl: PropTypes.object.isRequired,
     blurhash: PropTypes.string,
     link: PropTypes.node,
+    forceBlurhashEnabled: PropTypes.bool,
   };
 
   state = {
@@ -373,7 +374,7 @@ class Video extends React.PureComponent {
   }
 
   render () {
-    const { preview, src, inline, startTime, onOpenVideo, onCloseVideo, intl, alt, detailed, sensitive, link } = this.props;
+    const { preview, src, inline, startTime, onOpenVideo, onCloseVideo, intl, alt, detailed, sensitive, link, forceBlurhashEnabled } = this.props;
     const { containerWidth, currentTime, duration, volume, buffer, dragging, paused, fullscreen, hovered, muted, revealed } = this.state;
     const progress = (currentTime / duration) * 100;
 
@@ -444,7 +445,7 @@ class Video extends React.PureComponent {
         />}
 
         <div className={classNames('spoiler-button', { 'spoiler-button--hidden': revealed })}>
-          <button type='button' className='spoiler-button__overlay' onClick={this.toggleReveal}>
+          <button type='button' className={classNames('spoiler-button__overlay', { 'spoiler-button__overlay__blurhash-disabled' : !(blurhashEnabled || forceBlurhashEnabled) })} onClick={this.toggleReveal}>
             <span className='spoiler-button__overlay__label'>{warning}</span>
           </button>
         </div>

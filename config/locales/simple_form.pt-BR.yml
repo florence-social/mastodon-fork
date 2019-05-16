@@ -88,6 +88,7 @@ pt-BR:
         phrase: Palavra-chave ou frase
         setting_aggregate_reblogs: Agrupar compartilhamentos nas timelines
         setting_auto_play_gif: Reproduzir GIFs automaticamente
+        setting_blurhash_enabled: Habilitar uma previsão borrada para mídia escondida ao invés de cor sólida
         setting_boost_modal: Mostrar diálogo de confirmação antes de compartilhar postagem
         setting_default_language: Idioma das postagens
         setting_default_privacy: Privacidade das postagens

@@ -55,6 +55,7 @@ class Settings::PreferencesController < Settings::BaseController
       :setting_home_dms,
       :setting_show_application,
       :setting_advanced_layout,
+      :setting_blurhash_enabled,
       notification_emails: %i(follow follow_request reblog favourite mention digest report pending_account),
       interactions: %i(must_be_follower must_be_following must_be_following_dm)
     )
