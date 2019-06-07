@@ -170,12 +170,8 @@ class PostStatusService < BaseService
       visibility: @visibility,
       language: language_from_option(@options[:language]) || @account.user&.setting_default_language&.presence || LanguageDetector.instance.detect(@text, @account),
       application: @options[:application],
-<<<<<<< HEAD
       local_only: local_only_option(@options[:local_only], @in_reply_to, @account.user&.setting_default_federation)
-    }
-=======
     }.compact
->>>>>>> florence/master
   end
 
   def scheduled_status_attributes
