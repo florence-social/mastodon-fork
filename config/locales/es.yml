@@ -2,7 +2,7 @@
 es:
   about:
     about_hashtag_html: Estos son toots públicos etiquetados con <strong>#%{hashtag}</strong>. Puedes interactuar con ellos si tienes una cuenta en cualquier parte del fediverso.
-    about_mastodon_html: Mastodon es un servidor de red social <em>libre y de código abierto</em>. Una alternativa <em>descentralizada</em> a plataformas comerciales, que evita el riesgo de que una única compañía monopolice tu comunicación. Cualquiera puede ejecutar Mastodon y participar sin problemas en la <em>red social</em>.
+    about_mastodon_html: Mastodon es un servidor de red social <em>libre y de código abierto</em>. Una alternativa <em>descentralizada</em> a plataformas comerciales, que evita el riesgo de que una única compañía monopolice su comunicación. Cualquiera puede ejecutar Mastodon y participar sin problemas en la <em>red social</em>.
     about_this: Acerca de esta instancia
     active_count_after: activos
     active_footnote: Usuarios activos mensuales (MAU)
@@ -344,7 +344,7 @@ es:
       disable: Deshabilitar
       disabled: Deshabilitado
       enable: Habilitar
-      enable_hint: Una vez conectado, tu servidor se suscribirá a todos los toots públicos de este relé, y comenzará a enviar los toots públicos de este servidor hacia él.
+      enable_hint: Una vez conectado, su servidor se suscribirá a todos los toots públicos de este relé, y comenzará a enviar los toots públicos de este servidor hacia él.
       enabled: Habilitado
       inbox_url: URL del relé
       pending: Esperando la aprobación del relé
@@ -445,7 +445,7 @@ es:
         desc_html: Párrafo introductorio en la portada y en meta tags. Puedes usar tags HTML, en particular <code>&lt;a&gt;</code> y <code>&lt;em&gt;</code>.
         title: Descripción de instancia
       site_description_extended:
-        desc_html: Un buen lugar para tu código de conducta, reglas, guías y otras cosas que estén impuestas aparte en tu instancia. Puedes usar tags HTML
+        desc_html: Un buen lugar para su código de conducta, reglas, guías y otras cosas que estén impuestas aparte en su instancia. Puedes usar tags HTML
         title: Información extendida personalizada
       site_short_description:
         desc_html: Mostrado en la barra lateral y las etiquetas de metadatos. Describe lo que es Mastodon y qué hace especial a este servidor en un solo párrafo. si está vacío, pone por defecto la descripción de la instancia.
@@ -518,7 +518,7 @@ es:
     regenerate_token: Regenerar token de acceso
     token_regenerated: Token de acceso regenerado exitosamente
     warning: Ten mucho cuidado con estos datos. ¡No los compartas con nadie!
-    your_token: Tu token de acceso
+    your_token: Su identificador de acceso
   auth:
     apply_for_account: Solicitar una invitación
     change_password: Contraseña
@@ -527,7 +527,7 @@ es:
     delete_account: Borrar cuenta
     delete_account_html: Si desea eliminar su cuenta, puede <a href="%{path}">proceder aquí</a>. Será pedido de una confirmación.
     didnt_get_confirmation: "¿No recibió el correo de confirmación?"
-    forgot_password: "¿Olvidaste tu contraseña?"
+    forgot_password: "¿Olvidaste su contraseña?"
     invalid_reset_password_token: El token de reinicio de contraseña es inválido o expiró. Por favor pide uno nuevo.
     login: Iniciar sesión
     logout: Cerrar sesión
@@ -571,10 +571,10 @@ es:
       x_seconds: "%{count}s"
   deletes:
     bad_password_msg: "¡Buen intento, hackers! Contraseña incorrecta"
-    confirm_password: Ingresa tu contraseña actual para demostrar tu identidad
-    description_html: Esto removerá el contenido de tu cuenta y la desactivará <strong>permanente e irrevesiblemente</strong>. Tu nombre de usuario quedará reservado para prevenir futuros robos de identidad.
+    confirm_password: Ingrese su contraseña actual para demostrar su identidad
+    description_html: Esto eliminará el contenido de su cuenta y la desactivará <strong>permanente e irrevesiblemente</strong>. Su nombre de usuario quedará reservado para prevenir futuros robos de identidad.
     proceed: Eliminar cuenta
-    success_msg: Tu cuenta se eliminó con éxito
+    success_msg: Su cuenta se eliminó con éxito
     warning_html: Se garantiza únicamente la eliminación del contenido de esta instancia. El contenido que se haya compartido extensamente dejará sus huellas. Los servidores fuera de línea y los que se hayan desuscrito de tus actualizaciones ya no actualizarán sus bases de datos.
     warning_title: Disponibilidad diseminada del contenido
   directories:
@@ -598,17 +598,17 @@ es:
     '500':
       content: Lo sentimos, algo ha funcionado mal por nuestra parte.
       title: Esta página no es correcta
-    noscript_html: Para usar la aplicación web de Mastodon, por favor activa Javascript. Alternativamente, prueba alguna de las <a href="%{apps_path}">aplicaciones nativas</a> para Mastodon para tu plataforma.
+    noscript_html: Para usar la aplicación web de Mastodon, por favor activa Javascript. Alternativamente, prueba alguna de las <a href="%{apps_path}">aplicaciones nativas</a> para Mastodon para su plataforma.
   existing_username_validator:
     not_found: no se pudo encontrar un usuario local con ese nombre
     not_found_multiple: no se pudo encontrar %{usernames}
   exports:
     archive_takeout:
       date: Fecha
-      download: Descargar tu archivo
+      download: Descargar su archivo
       hint_html: Puedes solicitar un archivo de tus <strong>toots y materiales subidos</strong>. Los datos exportados estarán en formato ActivityPub, legibles por cualquier software compatible.
-      in_progress: Recopilando tu archivo...
-      request: Solicitar tu archivo
+      in_progress: Recopilando su archivo...
+      request: Solicitar su archivo
       size: Tamaño
     blocks: Personas que has bloqueado
     csv: CSV
@@ -676,7 +676,7 @@ es:
       merge_long: Mantener registros actuales y agregar nuevos
       overwrite: Sobrescribir
       overwrite_long: Reemplazar registros actuales con los nuevos
-    preface: Puedes importar ciertos datos, como todas las personas que estás siguiendo o bloqueando en tu cuenta en esta instancia, desde archivos exportados de otra instancia.
+    preface: Puedes importar ciertos datos, como todas las personas que está siguiendo o bloqueando en su cuenta en esta instancia, desde archivos exportados de otra instancia.
     success: Sus datos se han cargado correctamente y serán procesados en brevedad
     types:
       blocking: Lista de bloqueados
@@ -716,26 +716,26 @@ es:
       too_many: No se pueden adjuntar más de 4 archivos
   migrations:
     acct: usuario@dominio de la nueva cuenta
-    currently_redirecting: 'Tu perfil está redireccionado a:'
+    currently_redirecting: 'Su perfil está redireccionado a:'
     proceed: Guardar
-    updated_msg: "¡La configuración de migración de tu cuenta ha sido actualizada exitosamente!"
+    updated_msg: "¡La configuración de migración de su cuenta ha sido actualizada exitosamente!"
   moderation:
     title: Moderación
   notification_mailer:
     digest:
       action: Ver todas las notificaciones
-      body: Un resumen de los mensajes que perdiste en desde tu última visita, el %{since}
+      body: Aquí hay un resumen de los mensajes que perdió desde su última visita el %{since}
       mention: "%{name} te ha mencionado en:"
       new_followers_summary:
         one: "¡Ademas, has adquirido un nuevo seguidor mientras no estabas! ¡Hurra!"
         other: "¡Ademas, has adquirido %{count} nuevos seguidores mientras no estabas! ¡Genial!"
       subject:
-        one: "1 nueva notificación desde tu última visita \U0001F418"
-        other: "%{count} nuevas notificaciones desde tu última visita \U0001F418"
-      title: En tu ausencia…
+        one: "1 nueva notificación desde su última visita \U0001F418"
+        other: "%{count} nuevas notificaciones desde su última visita \U0001F418"
+      title: En su ausencia…
     favourite:
-      body: 'Tu estado fue marcado como favorito por %{name}:'
-      subject: "%{name} marcó tu estado como favorito"
+      body: 'Su estado fue marcado como favorito por %{name}:'
+      subject: "%{name} marcó su estado como favorito"
       title: Nuevo favorito
     follow:
       body: "¡%{name} te está siguiendo!"
@@ -752,8 +752,8 @@ es:
       subject: Fuiste mencionado por %{name}
       title: Nueva mención
     reblog:
-      body: "%{name} promovió tu estado:"
-      subject: "%{name} promovió tu estado"
+      body: "%{name} promovió su estado:"
+      subject: "%{name} promovió su estado"
       title: Nueva difusión
   number:
     human:
@@ -801,8 +801,8 @@ es:
     remove_selected_follows: Dejar de seguir los usuarios seleccionados
     status: Estado de cuenta
   remote_follow:
-    acct: Ingresa tu usuario@dominio desde el que quieres seguir
-    missing_resource: No se pudo encontrar la URL de redirección requerida para tu cuenta
+    acct: Ingrese su usuario@dominio desde donde quiere seguir
+    missing_resource: No se pudo encontrar la URL de redirección requerida para su cuenta
     no_account_html: "¿No tienes una cuenta? Puedes <a href='%{sign_up_path}' target='_blank'>registrarte aqui</a>"
     proceed: Proceder a seguir
     prompt: 'Vas a seguir a:'
@@ -848,7 +848,7 @@ es:
       weibo: Weibo
     current_session: Sesión actual
     description: "%{browser} en %{platform}"
-    explanation: Estos son los navegadores web conectados actualmente en tu cuenta de Mastodon.
+    explanation: Estos son los navegadores web conectados actualmente en su cuenta de Mastodon.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -898,8 +898,8 @@ es:
     boosted_from_html: Impulsado desde %{acct_link}
     content_warning: 'Alerta de contenido: %{warning}'
     disallowed_hashtags:
-      one: 'contenía un hashtag no permitido: %{tags}'
-      other: 'contenía los hashtags no permitidos: %{tags}'
+      one: 'contenía una etiqueta no permitida: %{tags}'
+      other: 'contenía unas etiquetas no permitidas: %{tags}'
     language_detection: Detección automática de idioma
     open_in_web: Abrir en web
     over_character_limit: Límite de caracteres de %{max} superado
@@ -938,7 +938,7 @@ es:
       default: "%d de %b del %Y, %H:%M"
       month: "%b %Y"
   two_factor_authentication:
-    code_hint: Ingresa el código generado por tu aplicación de autenticación para confirmar
+    code_hint: Ingrese el código generado por su aplicación de autenticación para confirmar
     description_html: Si activa la <strong>autenticación de dos factores</strong>, se requerirá estar en posesión de su teléfono, lo que generará autentificadores para que usted pueda iniciar una sesión.
     disable: Deshabilitar
     enable: Habilitar
@@ -976,7 +976,7 @@ es:
         suspend: Cuenta suspendida
     welcome:
       edit_profile_action: Configurar el perfil
-      edit_profile_step: Puedes personalizar tu perfil subiendo un avatar, una cabecera, cambiando su nombre de usuario y más. Si quiere revisar sus nuevos seguidores antes de que se les permita seguirte, puede bloquear su cuenta.
+      edit_profile_step: Puedes personalizar su perfil subiendo un avatar, una cabecera, cambiando su nombre de usuario y más. Si quiere revisar sus nuevos seguidores antes de que se les permita seguirte, puede bloquear su cuenta.
       explanation: Aquí hay algunos consejos para empezar
       final_action: Empezar a publicar
       final_step: '¡Empieza a publicar! Incluso sin seguidores, sus mensajes públicos pueden ser vistos por otros, por ejemplo en la cronología local y con etiquetas. Podría introducirse con la etiqueta #introductions.'
@@ -988,7 +988,7 @@ es:
       tip_federated_timeline: La cronología federada es una vista de la red de Mastodon. Pero solo incluye gente que tus vecinos están siguiendo, así que no está completa.
       tip_following: Sigues a tus administradores de servidor por defecto. Para encontrar más gente interesante, revisa las cronologías locales y federadas.
       tip_local_timeline: La cronología local es una vista de la gente en %{instance}. Estos son tus vecinos inmediatos!
-      tip_mobile_webapp: Si el navegador de tu dispositivo móvil ofrece agregar Mastodon a tu página de inicio, puedes recibir notificaciones. Actúa como una aplicación nativa en muchas formas!
+      tip_mobile_webapp: Si el navegador de su dispositivo móvil ofrece agregar Mastodon a su página de inicio, puede recibir notificaciones. Actúa como una aplicación nativa en muchas formas!
       tips: Consejos
       title: ¡Te damos la bienvenida a bordo, %{name}!
   users:
@@ -999,5 +999,5 @@ es:
     seamless_external_login: Has iniciado sesión desde un servicio externo, así que los ajustes de contraseña y correo no están disponibles.
     signed_in_as: 'Sesión iniciada como:'
   verification:
-    explanation_html: 'Puedes <strong>verificarte a ti mismo como el dueño de los links en los metadatos de tu perfil</strong>. Para eso, el sitio vinculado debe contener un vínculo a tu perfil de Mastodon. El vínculo en tu sitio <strong>debe</strong> tener un atributo <code>rel="me"</code>. El texto del vínculo no importa. Aquí hay un ejemplo:'
+    explanation_html: 'Puede <strong>verificarse a si mismo como el dueño de los enlaces en los metadatos de su perfil</strong>. Para eso, el sitio vinculado debe contener un vínculo a su perfil de Mastodon. El vínculo en su sitio <strong>debe</strong> tener un atributo <code>rel="me"</code>. El texto del vínculo no importa. Aquí hay un ejemplo:'
     verification: Verificación
