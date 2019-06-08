@@ -22,7 +22,7 @@ es:
       <p>La descripción extendida no se ha colocado aún.</p>
     federation_hint_html: Con una cuenta en %{instance} podrás seguir gente en cualquier servidor de Mastodon
     generic_description: "%{domain} es un servidor en la red"
-    get_apps: "Prueba una aplicación movil"
+    get_apps: Prueba una aplicación movil
     hosted_on: Mastodon hosteado en %{domain}
     learn_more: Aprende más
     privacy_policy: Política de privacidad
@@ -310,7 +310,7 @@ es:
       title: Lista negra de correo
     followers:
       back_to_account: Regresar A Cuenta
-      title: "Seguidores de %{acct}"
+      title: Seguidores de %{acct}
     instances:
       by_domain: Dominio
       delivery_available: Distribución está disponible
@@ -583,7 +583,7 @@ es:
     enabled_but_waiting: Usted ha optado por estar en el directorio, pero no tiene el número mínimo de seguidores (%{min_followers}) para ser listado todavía.
     explanation: Descubre usuarios por sus intereses
     explore_mastodon: Explora %{title}
-    how_to_enable: "Actualmente no a optado por estar en el directorio. Puede optar abajo. ¡Usa etiquetas en su biografía para ser listado bajo etiquetas especificas!"
+    how_to_enable: Actualmente no a optado por estar en el directorio. Puede optar abajo. ¡Usa etiquetas en su biografía para ser listado bajo etiquetas especificas!
     people:
       one: "%{count} persona"
       other: "%{count} personas"
@@ -667,7 +667,7 @@ es:
     identity: Identidad
     inactive: Inactivo
     publicize_checkbox: 'E incluye esto:'
-    publicize_toot: '¡Está comprobado! Soy %{username} en %{service}: %{url}'
+    publicize_toot: "¡Está comprobado! Soy %{username} en %{service}: %{url}"
     status: Estado de verificación
     view_proof: Ver prueba
   imports:
@@ -979,7 +979,7 @@ es:
       edit_profile_step: Puedes personalizar su perfil subiendo un avatar, una cabecera, cambiando su nombre de usuario y más. Si quiere revisar sus nuevos seguidores antes de que se les permita seguirte, puede bloquear su cuenta.
       explanation: Aquí hay algunos consejos para empezar
       final_action: Empezar a publicar
-      final_step: '¡Empieza a publicar! Incluso sin seguidores, sus mensajes públicos pueden ser vistos por otros, por ejemplo en la cronología local y con etiquetas. Podría introducirse con la etiqueta #introductions.'
+      final_step: "¡Empieza a publicar! Incluso sin seguidores, sus mensajes públicos pueden ser vistos por otros, por ejemplo en la cronología local y con etiquetas. Podría introducirse con la etiqueta #introductions."
       full_handle: Su sobrenombre completo
       full_handle_hint: Esto es lo que le dirías a tus amigos para que ellos puedan enviarle mensajes o seguirle desde otra instancia.
       review_preferences_action: Cambiar preferencias
@@ -990,7 +990,7 @@ es:
       tip_local_timeline: La cronología local es una vista de la gente en %{instance}. Estos son tus vecinos inmediatos!
       tip_mobile_webapp: Si el navegador de su dispositivo móvil ofrece agregar Mastodon a su página de inicio, puede recibir notificaciones. Actúa como una aplicación nativa en muchas formas!
       tips: Consejos
-      title: ¡Te damos la bienvenida a bordo, %{name}!
+      title: "¡Te damos la bienvenida a bordo, %{name}!"
   users:
     follow_limit_reached: No puedes seguir a más de %{limit} personas
     invalid_email: La dirección de correo es incorrecta
