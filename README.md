@@ -15,34 +15,29 @@ changes.
 
 ## Versioning
 
-Florence Mastodon will follow [semantic versioning]. Essentially, this means that versions will be
-MAJOR.MINOR.PATCH, where:
+Florence Mastodon uses a four-numbered versioning system, loosely based upon [semantic
+versioning]. The four numbers are:
+* **Compatibility**: Increased when federation, app compatibility, etc. are changed in a
+  non-compatibile way.
+* **Feel**: Increased when user experience is changed strongly enough to feel different, i.e. more
+  than just small new features.
+* **Features**: Increased when new features are added. Reset to zero when **feel** version is
+  bumped.
+* **Hotfixes**: Increased when fixes are substantial enough to release a new version without any new
+  features. Reset to zero when **feature** version is bumped.
 
-* MAJOR version bumps indicate fundamentally incompatible changes. This includes major UI changes,
-  changes to how servers federate, changes that may break existing apps, etc.
-* MINOR version bumps indicate new features that don't break backwards compatibility. While it
-  won't explicitly break anything, users may have to go out of their way to use the new feature,
-  and apps may have to explicitly add support for the feature.
-* PATCH version bumps are for fixes that don't add any new features.
+For now, because this versioning system hasn't been strongly adopted, releases will be annotated as
+**Pre-Release x.y.z**, which is equivalent to version 0.x.y.z.
 
 [semantic versioning]: https://semver.org
 
-Because Florence Mastodon is currently less than version 1.0.0, there won't be any PATCH versions,
-and versions will be of the form 0.MAJOR.MINOR. This basically means that breaking changes can
-happen often.
-
 ## Release timeline
 
-Florence Mastodon 0.0.0 is mostly equivalent to Mastodon 2.7.1, with some extra changes added in.
-Right now, the goal pre-1.0 is to incorporate existing, already-developed changes into the fork so
-that people have a central version to upgrade to.
-
-1.0.0 will be equivalent to some future, stable release of Mastodon, plus these changes. This could
-be 2.8 or 2.9 or even 2.10; it depends on how fast development happens. Once this is done, work on
-new features, plus refinement of existing, larger features (such as Glitch.Social's theme changes)
-can start.
-
-Be sure to check out the issues on the repository for details!
+Pre-release 0.1.0 is mostly equivalent to Mastodon 2.9.0, with some extra changes added in.
+Right now, the goal before pre-release 1.0.0 is to incorporate existing, already-developed changes
+into the fork so that people have a central version to upgrade to. Once we've finally gotten the
+software to the point where we like it, we will release the first official release, which will be
+named something special. Stay tuned!
 
 ## License
 
