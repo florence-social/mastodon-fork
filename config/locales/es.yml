@@ -361,7 +361,7 @@ es:
         report: denuncia
       action_taken_by: Acción tomada por
       are_you_sure: "¿Estás seguro?"
-      assign_to_self: Asignár a mí
+      assign_to_self: Asignar a mí
       assigned: Moderador asignado
       comment:
         none: Ninguno
@@ -527,7 +527,7 @@ es:
     delete_account: Borrar cuenta
     delete_account_html: Si desea eliminar su cuenta, puede <a href="%{path}">proceder aquí</a>. Será pedido de una confirmación.
     didnt_get_confirmation: "¿No recibió el correo de confirmación?"
-    forgot_password: "¿Olvidaste su contraseña?"
+    forgot_password: "¿Olvidó su contraseña?"
     invalid_reset_password_token: El token de reinicio de contraseña es inválido o expiró. Por favor pide uno nuevo.
     login: Iniciar sesión
     logout: Cerrar sesión
@@ -623,9 +623,9 @@ es:
       limit: Ya ha exhibido la cantidad máxima de etiquetas
   filters:
     contexts:
-      home: Cronología propio
+      home: Cronología propia
       notifications: Notificaciones
-      public: Cronología público
+      public: Cronología pública
       thread: Conversaciones
     edit:
       title: Editar filtro
@@ -676,7 +676,7 @@ es:
       merge_long: Mantener registros actuales y agregar nuevos
       overwrite: Sobrescribir
       overwrite_long: Reemplazar registros actuales con los nuevos
-    preface: Puedes importar ciertos datos, como todas las personas que está siguiendo o bloqueando en su cuenta en esta instancia, desde archivos exportados de otra instancia.
+    preface: Puede importar ciertos datos, como todas las personas que está siguiendo o bloqueando en su cuenta en esta instancia, desde archivos exportados de otra instancia.
     success: Sus datos se han cargado correctamente y serán procesados en brevedad
     types:
       blocking: Lista de bloqueados
@@ -706,7 +706,7 @@ es:
     table:
       expires_at: Expira
       uses: Usos
-    title: Invitar a la gente
+    title: Invitar gente
   lists:
     errors:
       limit: Has alcanzado la cantidad máxima de listas
@@ -792,7 +792,7 @@ es:
     last_active: Última vez activo
     most_recent: Más reciente
     moved: Movido
-    mutual: Mutuo
+    mutual: Común
     primary: Primario
     relationship: Relación
     remove_selected_domains: Eliminar todos los seguidores de los dominios seleccionados
