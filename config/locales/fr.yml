@@ -405,6 +405,12 @@ fr:
       mascot:
         desc_html: Affiché sur plusieurs pages. Au moins 293×205px recommandé. Lorsqu’il n’est pas défini, retombe à la mascotte par défaut
         title: Image de la mascotte
+      max_bio_chars:
+        desc_html: 'Définir la taille maximum de biographies en charactères (défaut : 500)'
+        title: Taille Maximum de Biographies
+      max_toot_chars:
+        desc_html: 'Définir la taille maximum de pouets en charactères (défaut : 500)'
+        title: Taille Maximum de Pouets
       peers_api_enabled:
         desc_html: Noms des domaines que ce serveur a découvert dans le fediverse
         title: Publier la liste des serveurs découverts
