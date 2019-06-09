@@ -783,10 +783,9 @@ es:
       too_few_options: debe tener mas de una opción
       too_many_options: no puede tener mas de %{max} opciones
   preferences:
-    languages: Idiomas
     other: Otros
     publishing: Publicación
-    web: Web
+    web: Red
   relationships:
     activity: Actividad de cuenta
     dormant: Latente

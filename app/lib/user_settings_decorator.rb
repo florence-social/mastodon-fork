@@ -34,6 +34,7 @@ class UserSettingsDecorator
     user.settings['aggregate_reblogs']   = aggregate_reblogs_preference if change?('setting_aggregate_reblogs')
     user.settings['home_dms']            = home_dms_preference if change?('setting_home_dms')
     user.settings['show_application']    = show_application_preference if change?('setting_show_application')
+    user.settings['advanced_layout']     = advanced_layout_preference if change?('setting_advanced_layout')
   end
 
   def merged_notification_emails
@@ -108,8 +109,8 @@ class UserSettingsDecorator
     boolean_cast_setting 'setting_aggregate_reblogs'
   end
 
-  def home_dms_preference
-    boolean_cast_setting 'setting_home_dms'
+  def advanced_layout_preference
+    boolean_cast_setting 'setting_advanced_layout'
   end
 
   def boolean_cast_setting(key)
