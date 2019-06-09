@@ -784,8 +784,8 @@ es:
       too_many_options: no puede tener mas de %{max} opciones
   preferences:
     other: Otros
-    publishing: Publicación
-    web: Red
+    posting_defaults: Condición base de publicación
+    public_timelines: Cronologías públicas
   relationships:
     activity: Actividad de cuenta
     dormant: Latente
