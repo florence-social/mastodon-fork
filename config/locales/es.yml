@@ -167,8 +167,8 @@ es:
       search: Buscar
       shared_inbox_url: URL de bandeja compartida
       show:
-        created_reports: Denuncias hechos por esta cuenta
-        targeted_reports: Denuncias hechos sobre esta cuenta
+        created_reports: Denuncias hechas por esta cuenta
+        targeted_reports: Denuncias hechas sobre esta cuenta
       silence: Silenciar
       silenced: Silenciado
       statuses: Estados
@@ -792,7 +792,7 @@ es:
     last_active: Última vez activo
     most_recent: Más reciente
     moved: Movido
-    mutual: Común
+    mutual: Recíproco
     primary: Primario
     relationship: Relación
     remove_selected_domains: Eliminar todos los seguidores de los dominios seleccionados
