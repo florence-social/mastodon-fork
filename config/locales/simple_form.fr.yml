@@ -103,6 +103,7 @@ fr:
         setting_display_media_show_all: Montrer tout
         setting_expand_spoilers: Toujours développer les pouets marqués d’un avertissement de contenu
         setting_hide_network: Cacher votre réseau
+        setting_home_dms: Montrer les messages directs sur le fil d'accueil
         setting_noindex: Demander aux moteurs de recherche de ne pas indexer vos informations personnelles
         setting_reduce_motion: Réduire la vitesse des animations
         setting_show_application: Dévoiler le nom de l’application utilisée pour envoyer des pouets
