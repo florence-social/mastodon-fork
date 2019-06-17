@@ -1,7 +1,7 @@
 Contributing
 ============
 
-Thank you for considering contributing to Mastodon 🐘
+Thank you for considering contributing to Florence Mastodon
 
 You can contribute in the following ways:
 
@@ -9,31 +9,25 @@ You can contribute in the following ways:
 - Translating the Mastodon interface into various languages
 - Contributing code to Mastodon by fixing bugs or implementing features
 - Improving the documentation
+- Joining the conversation on our [Chat]
+- Participate in OutReach or other activities
+- Proof-read
+- And much more
 
-If your contributions are accepted into Mastodon, you can request to be paid through [our OpenCollective](https://opencollective.com/mastodon).
+If you want to contribute with monetary support you can do so via our [Open Collective](https://opencollective.com/florence-social) (which isn't publicly launched yet)
 
-## Bug reports
+## Adding an Issue for Bug Report or Feature Request
 
-Bug reports and feature suggestions can be submitted to [GitHub Issues](https://github.com/tootsuite/mastodon/issues). Please make sure that you are not submitting duplicates, and that a similar report or request has not already been resolved or rejected in the past using the search function. Please also use descriptive, concise titles.
+Bug reports and feature suggestions can be submitted to [GitHub Issues](https://github.com/florence-social/mastodon-fork/issues). Do not worry about submitting duplicates, but please make a cursory search to see if any similar reports or request have already been resolved or rejected in the past using the search function. If you find a bug or feature request which matches yours you can join the conversation by adding your commentary to that issue.
+
+Try to describe your issue, the use-case, and additional considerations when submitting a feature request.
 
 ## Translations
 
-You can submit translations via [Crowdin](https://crowdin.com/project/mastodon). They are periodically merged into the codebase.
-
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/mastodon/localized.svg)][crowdin]
-
-## Pull requests
-
-Please use clean, concise titles for your pull requests. We use commit squashing, so the final commit in the master branch will carry the title of the pull request.
-
-The smaller the set of changes in the pull request is, the quicker it can be reviewed and merged. Splitting tasks into multiple smaller pull requests is often preferable.
-
-**Pull requests that do not pass automated checks may not be reviewed**. In particular, you need to keep in mind:
-
-- Unit and integration tests (rspec, jest)
-- Code style rules (rubocop, eslint)
-- Normalization of locale files (i18n-tasks)
+We will be using Weblate for translations in the near future, but we're waiting for a free account for Open Source Projects via Weblate themselves, in the meanwhile you can submit PRs with translations, or wait. We will update this document as soon as Weblate is available for translations, and will make public announcements elsewhere.
 
 ## Documentation
 
-The [Mastodon documentation](https://docs.joinmastodon.org) is a statically generated site. You can [submit merge requests to mastodon/docs](https://source.joinmastodon.org/mastodon/docs).
+Documentation work will be added soon, and in the meanwhile you can join us in our [Chat] for documentation.
+
+[Chat]: https://chat.florencesoc.org/signup_user_complete/?id=2a7237f68937b2c4a99ca25c156e6915
