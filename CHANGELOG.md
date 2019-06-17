@@ -21,15 +21,24 @@ This release is based off of [Mastodon 2.9.0] plus the commits up to [65efe892cf
     * Thanks to glitch.social and many other forks for the original code
     * Thanks to [usbsnowcrash] for the Florence-specific code
     * Thanks to [m4sk1n] for the Polish translation
+    * Thanks to [clarfon] and [Feufochmar] for the French translation
+    * Thanks to [1011X] and [skrlet13] for the Spanish translation
 * Biography length can now be configured by an admin; default is 500
     * Thanks to glitch.social and many other forks for the original code
     * Thanks to [usbsnowcrash] for the Florence-specific code
 * Users can choose whether to receive DMs on the home timeline in their settings
     * Thanks to glitch.social and many other forks for the original code
     * Thanks to [usbsnowcrash] for the Florence-specific code
+* Spanish translations were updated to be more formal
+    * Thanks to [1011X] for the inital changes
+    * Thanks to [skrlet13] for offering feedback and further changes
 
-[usbsnowcrash]: https://github.com/usbsnowcrash
+[1011X]: https://github.com/1011X
+[clarfon]: https://github.com/clarfon
+[Feufochmar]: https://github.com/Feufochmar
 [m4sk1n]: https://github.com/m4sk1n
+[skrlet13]: https://github.com/skrlet13
+[usbsnowcrash]: https://github.com/usbsnowcrash
 
 ### Special Thanks
 
