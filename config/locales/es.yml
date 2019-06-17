@@ -7,6 +7,7 @@ es:
     active_count_after: activos
     active_footnote: Usuarios activos mensuales (MAU)
     administered_by: 'Administrado por:'
+    api: API
     apps: Aplicaciones móviles
     apps_platforms: Usa Mastodon desde iOS, Android, y otras plataformas
     browse_directory: Revisa un directorio de perfiles y filtra por intereses
@@ -19,7 +20,6 @@ es:
     extended_description_html: |
       <h3>Un buen lugar para las reglas</h3>
       <p>La descripción extendida no se ha colocado aún.</p>
-<<<<<<< HEAD
     federation_hint_html: Con una cuenta en %{instance}, podrá seguir a gente en cualquier servidor de Mastodon y más alla.
     generic_description: "%{domain} es un servidor en la red"
     get_apps: Probar una aplicación móvil
@@ -50,6 +50,7 @@ es:
     joined: Se unió el %{date}
     last_active: última conexión
     link_verified_on: La propiedad de este vínculo fue verificada el %{date}
+    media: Archivos
     moved_html: "%{name} se ha trasladado a %{new_profile_link}:"
     network_hidden: Esta información no está disponible
     nothing_here: "¡No hay nada aquí!"
@@ -65,6 +66,7 @@ es:
     reserved_username: El nombre de usuario está reservado
     roles:
       admin: Administrador
+      bot: Robot
       moderator: Moderador
     unavailable: Perfil no disponible
     unfollow: Dejar de seguir
@@ -81,6 +83,7 @@ es:
       approve: Aprobar
       approve_all: Aprobar todos
       are_you_sure: "¿Estás seguro?"
+      avatar: Avatar
       by_domain: Dominio
       change_email:
         changed_msg: "¡El correo electrónico se ha actualizado correctamente!"
@@ -115,6 +118,7 @@ es:
       joined: Se unió
       location:
         all: Todos
+        local: Local
         remote: Remoto
         title: Localización
       login_status: Estado del login
@@ -170,6 +174,7 @@ es:
       statuses: Estados
       subscribe: Suscribir
       suspended: Susependido
+      time_in_queue: Esperando en fila %{time}
       title: Cuentas
       unconfirmed_email: Correo electrónico sin confirmar
       undo_silenced: Des-silenciar
@@ -222,6 +227,7 @@ es:
       destroyed_msg: "¡Emojo destruido con éxito!"
       disable: Deshabilitar
       disabled_msg: Se deshabilitó con éxito ese emoji
+      emoji: Emoji
       enable: Habilitar
       enabled_msg: Se habilitó con éxito ese emoji
       image_hint: PNG de hasta 50KB
@@ -474,6 +480,7 @@ es:
       confirmed: Confirmado
       expires_in: Expira en
       last_delivery: Última entrega
+      title: WebSub
       topic: Tópico
     tags:
       accounts: Cuentas
@@ -498,8 +505,15 @@ es:
       body: "%{reporter} ha denunciado a %{target}"
       body_remote: Alguien de %{domain} a denunciado a %{target}
       subject: Denuncia nueva para %{instance} (#%{id})
+  appearance:
+    advanced_web_interface: Interfaz avanzado
+    advanced_web_interface_hint: 'Si quiere usar todo el espacio de su pantalla, el interfaz avanzado le permite configurar muchas columnas diferentes para ver mucha información a la misma vez como quiera: Hogar, notificaciones, cronología federada, cualquier numero de listas y etiquetas.'
+    animations_and_accessibility: Animaciones y accesibilidad
+    confirmation_dialogs: Diálogos de confirmación
+    sensitive_content: Contenido sensible
   application_mailer:
     notification_preferences: Cambiar preferencias de correo electrónico
+    salutation: "%{name},"
     settings: 'Cambiar preferencias de correo: %{link}'
     view: 'Vista:'
     view_profile: Ver perfil
@@ -527,6 +541,9 @@ es:
     migrate_account: Mudarse a otra cuenta
     migrate_account_html: Si deseas redireccionar esta cuenta a otra distinta, puedes <a href="%{path}">configurarlo aquí</a>.
     or_log_in_with: O inicia sesión con
+    providers:
+      cas: CAS
+      saml: SAML
     register: Registrarse
     registration_closed: "%{instance} no está aceptando nuevos miembros"
     resend_confirmation: Volver a enviar el correo de confirmación
@@ -547,6 +564,7 @@ es:
     title: Seguir a %{acct}
   datetime:
     distance_in_words:
+      about_x_hours: "%{count}h"
       about_x_months: "%{count}m"
       about_x_years: "%{count}a"
       almost_x_years: "%{count}a"
@@ -557,6 +575,7 @@ es:
       x_days: "%{count}d"
       x_minutes: "%{count}min"
       x_months: "%{count}m"
+      x_seconds: "%{count}s"
   deletes:
     bad_password_msg: "¡Buen intento, hackers! Contraseña incorrecta"
     confirm_password: Ingrese su contraseña actual para demostrar su identidad
@@ -805,8 +824,9 @@ es:
       proceed: Preceder a responder
       prompt: 'Quieres responder a este toot:'
   remote_unfollow:
+    error: Error
     title: Título
-    unfollowed: Ha dejado de seguirse
+    unfollowed: Dejó de seguir
   scheduled_statuses:
     over_daily_limit: Ha excedido el limite de %{limit} toots programados por ese día
     over_total_limit: Ha excedido el limite de %{limit} toots programados
@@ -837,7 +857,18 @@ es:
     explanation: Estos son los navegadores web conectados actualmente en su cuenta de Mastodon.
     ip: IP
     platforms:
-      other: Desconocido
+      adobe_air: Adobe Air
+      android: Android
+      blackberry: Blackberry
+      chrome_os: ChromeOS
+      firefox_os: Firefox OS
+      ios: iOS
+      linux: Linux
+      mac: Mac
+      other: Plataforma desconocida
+      windows: Windows
+      windows_mobile: Windows Mobile
+      windows_phone: Windows Phone
     revoke: Revocar
     revoke_success: Sesión revocada exitosamente
     title: Sesiones
@@ -890,6 +921,7 @@ es:
       vote: Votar
     show_more: Mostrar más
     sign_in_to_participate: Regístrate para participar en la conversación
+    title: '%{name}: "%{quote}"'
     visibilities:
       private: Sólo mostrar a seguidores
       private_long: Solo mostrar a tus seguidores
@@ -910,6 +942,7 @@ es:
   time:
     formats:
       default: "%d de %b del %Y, %H:%M"
+      month: "%b %Y"
   two_factor_authentication:
     code_hint: Ingrese el código generado por su aplicación de autenticación para confirmar
     description_html: Si activa la <strong>autenticación de dos factores</strong>, se requerirá estar en posesión de su teléfono, lo que generará autentificadores para que usted pueda iniciar una sesión.
