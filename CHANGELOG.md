@@ -8,7 +8,7 @@ our [README file].
 
 [README file]: ./README.md
 
-## Pre-Release 0.1.0 [2019-06-16 / v0.0.1.0]
+## Pre-Release 0.1.0 [2019-06-18 / v0.0.1.0]
 
 This release is based off of [Mastodon 2.9.0] plus the commits up to [65efe892cf].
 
