@@ -406,11 +406,11 @@ en:
         desc_html: Displayed on multiple pages. At least 293×205px recommended. When not set, falls back to default mascot
         title: Mascot image
       max_bio_chars:
-        desc_html: 'Set maximum biography length in characters (default: 500)'
-        title: Max Biography Size
+        desc_html: 'Maximum biography length in characters (default: 500)'
+        title: Max biography size
       max_toot_chars:
-        desc_html: 'Set maximum toot length in characters (default: 500)'
-        title: Max Toot Size
+        desc_html: 'Maximum toot length in characters (default: 500)'
+        title: Max toot size
       peers_api_enabled:
         desc_html: Domain names this server has encountered in the fediverse
         title: Publish list of discovered servers
