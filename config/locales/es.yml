@@ -7,7 +7,6 @@ es:
     active_count_after: activos
     active_footnote: Usuarios activos mensuales (MAU)
     administered_by: 'Administrado por:'
-    api: API
     apps: Aplicaciones móviles
     apps_platforms: Usa Mastodon desde iOS, Android, y otras plataformas
     browse_directory: Revisa un directorio de perfiles y filtra por intereses
@@ -15,25 +14,26 @@ es:
     contact: Contacto
     contact_missing: No especificado
     contact_unavailable: N/A
-    discover_users: Descubre usuarios
+    discover_users: Descubrir usuarios
     documentation: Documentación
     extended_description_html: |
       <h3>Un buen lugar para las reglas</h3>
       <p>La descripción extendida no se ha colocado aún.</p>
-    federation_hint_html: Con una cuenta en %{instance} podrás seguir gente en cualquier servidor de Mastodon
+<<<<<<< HEAD
+    federation_hint_html: Con una cuenta en %{instance}, podrá seguir a gente en cualquier servidor de Mastodon y más alla.
     generic_description: "%{domain} es un servidor en la red"
-    get_apps: Prueba una aplicación movil
+    get_apps: Probar una aplicación móvil
     hosted_on: Mastodon hosteado en %{domain}
     learn_more: Aprende más
     privacy_policy: Política de privacidad
-    see_whats_happening: Ver que pasa
-    server_stats: 'Estadísticas de servidor:'
+    see_whats_happening: Ver lo que está pasando
+    server_stats: 'Datos del servidor:'
     source_code: Código fuente
     status_count_after:
       one: estado
       other: estados
     status_count_before: Qué han escrito
-    tagline: Sigue y descubre nuevos amigos
+    tagline: Seguir a amigos existentes y descubre nuevos
     terms: Condiciones de servicio
     user_count_after:
       one: usuario
@@ -50,7 +50,6 @@ es:
     joined: Se unió el %{date}
     last_active: última conexión
     link_verified_on: La propiedad de este vínculo fue verificada el %{date}
-    media: Media
     moved_html: "%{name} se ha trasladado a %{new_profile_link}:"
     network_hidden: Esta información no está disponible
     nothing_here: "¡No hay nada aquí!"
@@ -66,13 +65,12 @@ es:
     reserved_username: El nombre de usuario está reservado
     roles:
       admin: Administrador
-      bot: Bot
       moderator: Moderador
     unavailable: Perfil no disponible
     unfollow: Dejar de seguir
   admin:
     account_actions:
-      action: Moderar
+      action: Realizar acción
       title: Moderar %{acct}
     account_moderation_notes:
       create: Crear
@@ -83,7 +81,6 @@ es:
       approve: Aprobar
       approve_all: Aprobar todos
       are_you_sure: "¿Estás seguro?"
-      avatar: Avatar
       by_domain: Dominio
       change_email:
         changed_msg: "¡El correo electrónico se ha actualizado correctamente!"
@@ -118,7 +115,6 @@ es:
       joined: Se unió
       location:
         all: Todos
-        local: Local
         remote: Remoto
         title: Localización
       login_status: Estado del login
@@ -134,7 +130,7 @@ es:
       moderation_notes: Notas de moderación
       most_recent_activity: Actividad más reciente
       most_recent_ip: IP más reciente
-      no_account_selected: No se cambiaron las cuentas ya que ninguna fue seleccionada
+      no_account_selected: Ninguna cuenta se cambió ya que ninguna fue seleccionada
       no_limits_imposed: Sin límites impuestos
       not_subscribed: No se está suscrito
       outbox_url: URL de bandeja de salida
@@ -226,7 +222,6 @@ es:
       destroyed_msg: "¡Emojo destruido con éxito!"
       disable: Deshabilitar
       disabled_msg: Se deshabilitó con éxito ese emoji
-      emoji: Emoji
       enable: Habilitar
       enabled_msg: Se habilitó con éxito ese emoji
       image_hint: PNG de hasta 50KB
@@ -269,7 +264,7 @@ es:
       created_msg: El bloque de dominio está siendo procesado
       destroyed_msg: El bloque de dominio se deshizo
       domain: Dominio
-      existing_domain_block_html: Ya ha impuesto límites más estrictos en %{name}, primero debe <a href="%{unblock_url}">desbloquearlo</a>.
+      existing_domain_block_html: Ya ha impuesto límites más estrictos a %{name}, necesita <a href="%{unblock_url}">desbloquearlo</a> primero.
       new:
         create: Crear bloque
         hint: El bloque de dominio no prevendrá la creación de entradas de cuenta en la base de datos, pero aplicará retroactiva y automáticamente métodos de moderación específica en dichas cuentas.
@@ -479,7 +474,6 @@ es:
       confirmed: Confirmado
       expires_in: Expira en
       last_delivery: Última entrega
-      title: WebSub
       topic: Tópico
     tags:
       accounts: Cuentas
@@ -492,7 +486,7 @@ es:
     title: Administración
     warning_presets:
       add_new: Añadir nuevo
-      delete: Eliminar
+      delete: Borrar
       edit: Editar
       edit_preset: Editar preajuste de advertencia
       title: Administrar preajuste de advertencia
@@ -506,7 +500,6 @@ es:
       subject: Denuncia nueva para %{instance} (#%{id})
   application_mailer:
     notification_preferences: Cambiar preferencias de correo electrónico
-    salutation: "%{name},"
     settings: 'Cambiar preferencias de correo: %{link}'
     view: 'Vista:'
     view_profile: Ver perfil
@@ -522,7 +515,7 @@ es:
   auth:
     apply_for_account: Solicitar una invitación
     change_password: Contraseña
-    checkbox_agreement_html: Estoy de acuerdo con las <a href="%{rules_path}" target="_blank">reglas del servidor</a> y los <a href="%{terms_path}" target="_blank">terminos de servicio</a>.
+    checkbox_agreement_html: Acepto las <a href="%{rules_path}" target="_blank">reglas del servidor</a> y los <a href="%{terms_path}" target="_blank">términos de servicio</a>
     confirm_email: Confirmar correo electrónico
     delete_account: Borrar cuenta
     delete_account_html: Si desea eliminar su cuenta, puede <a href="%{path}">proceder aquí</a>. Será pedido de una confirmación.
@@ -534,11 +527,8 @@ es:
     migrate_account: Mudarse a otra cuenta
     migrate_account_html: Si deseas redireccionar esta cuenta a otra distinta, puedes <a href="%{path}">configurarlo aquí</a>.
     or_log_in_with: O inicia sesión con
-    providers:
-      cas: CAS
-      saml: SAML
     register: Registrarse
-    registration_closed: "%{instance} no esta aceptando miembros nuevos"
+    registration_closed: "%{instance} no está aceptando nuevos miembros"
     resend_confirmation: Volver a enviar el correo de confirmación
     reset_password: Restablecer contraseña
     security: Cambiar contraseña
@@ -557,7 +547,6 @@ es:
     title: Seguir a %{acct}
   datetime:
     distance_in_words:
-      about_x_hours: "%{count}h"
       about_x_months: "%{count}m"
       about_x_years: "%{count}a"
       almost_x_years: "%{count}a"
@@ -568,7 +557,6 @@ es:
       x_days: "%{count}d"
       x_minutes: "%{count}min"
       x_months: "%{count}m"
-      x_seconds: "%{count}s"
   deletes:
     bad_password_msg: "¡Buen intento, hackers! Contraseña incorrecta"
     confirm_password: Ingrese su contraseña actual para demostrar su identidad
@@ -582,8 +570,8 @@ es:
     enabled: Usted está actualmente en el directorio.
     enabled_but_waiting: Usted ha optado por estar en el directorio, pero no tiene el número mínimo de seguidores (%{min_followers}) para ser listado todavía.
     explanation: Descubre usuarios por sus intereses
-    explore_mastodon: Explora %{title}
-    how_to_enable: Actualmente no a optado por estar en el directorio. Puede optar abajo. ¡Usa etiquetas en su biografía para ser listado bajo etiquetas especificas!
+    explore_mastodon: Explorar %{title}
+    how_to_enable: Actualmente no está registrado para el directorio. Puede optar abajo. ¡Use etiquetas en su biografía para aparecer bajo etiquetas especificas!
     people:
       one: "%{count} persona"
       other: "%{count} personas"
@@ -598,7 +586,7 @@ es:
     '500':
       content: Lo sentimos, algo ha funcionado mal por nuestra parte.
       title: Esta página no es correcta
-    noscript_html: Para usar la aplicación web de Mastodon, por favor activa Javascript. Alternativamente, prueba alguna de las <a href="%{apps_path}">aplicaciones nativas</a> para Mastodon para su plataforma.
+    noscript_html: Para usar la aplicación web de Mastodon, por favor active JavaScript. Alternativamente, prueba alguna de las <a href="%{apps_path}">aplicaciones nativas</a> para Mastodon para su plataforma.
   existing_username_validator:
     not_found: no se pudo encontrar un usuario local con ese nombre
     not_found_multiple: no se pudo encontrar %{usernames}
@@ -620,7 +608,7 @@ es:
   featured_tags:
     add_new: Añadir nuevo
     errors:
-      limit: Ya ha exhibido la cantidad máxima de etiquetas
+      limit: Ya ha alcanzado la cantidad máxima de etiquetas
   filters:
     contexts:
       home: Cronología propia
@@ -655,12 +643,12 @@ es:
   identity_proofs:
     active: Activo
     authorize: Sí, autorizar
-    authorize_connection_prompt: Autorizar esta conección criptográfica?
+    authorize_connection_prompt: "¿Autorizar esta conexión criptográfica?"
     errors:
-      failed: La conección criptográfica falló. Por favor inténtelo de nuevo desde %{provider}.
+      failed: La conexión criptográfica falló. Por favor, inténtelo de nuevo desde %{provider}.
       keybase:
-        invalid_token: Los identificadores de Keybase son rusumenes criptográficos de firmas y deben ser 66 carácteres hexadecimales
-        verification_failed: Keybase no reconoce este identificador como una firma del usuario de Keybase %{kb_username}. Por favor vuelva a intentarlo desde Keybase.
+        invalid_token: Los identificadores de Keybase son resumenes criptográficos de firmas y deben ser 66 carácteres hexadecimales
+        verification_failed: Keybase no reconoce este identificador como una firma del usuario de Keybase %{kb_username}. Por favor, inténtelo de nuevo desde Keybase.
       wrong_user: No se puede crear una prueba para %{proving} mientras conectado como %{current}. Conectese como %{proving} e intente de nuevo.
     explanation_html: Aquí puede conectar criptograficamente a sus otras identidades, como un perfil de Keybase. Esto deja que otras personas les mande mensajes cifrados y confiar en el contenido que reciban de usted.
     i_am_html: Soy %{username} en %{service}.
@@ -817,7 +805,6 @@ es:
       proceed: Preceder a responder
       prompt: 'Quieres responder a este toot:'
   remote_unfollow:
-    error: Error
     title: Título
     unfollowed: Ha dejado de seguirse
   scheduled_statuses:
@@ -850,18 +837,7 @@ es:
     explanation: Estos son los navegadores web conectados actualmente en su cuenta de Mastodon.
     ip: IP
     platforms:
-      adobe_air: Adobe Air
-      android: Android
-      blackberry: Blackberry
-      chrome_os: ChromeOS
-      firefox_os: Firefox OS
-      ios: iOS
-      linux: Linux
-      mac: Mac
       other: Desconocido
-      windows: Windows
-      windows_mobile: Windows Mobile
-      windows_phone: Windows Phone
     revoke: Revocar
     revoke_success: Sesión revocada exitosamente
     title: Sesiones
@@ -914,7 +890,6 @@ es:
       vote: Votar
     show_more: Mostrar más
     sign_in_to_participate: Regístrate para participar en la conversación
-    title: '%{name}: "%{quote}"'
     visibilities:
       private: Sólo mostrar a seguidores
       private_long: Solo mostrar a tus seguidores
@@ -935,7 +910,6 @@ es:
   time:
     formats:
       default: "%d de %b del %Y, %H:%M"
-      month: "%b %Y"
   two_factor_authentication:
     code_hint: Ingrese el código generado por su aplicación de autenticación para confirmar
     description_html: Si activa la <strong>autenticación de dos factores</strong>, se requerirá estar en posesión de su teléfono, lo que generará autentificadores para que usted pueda iniciar una sesión.
@@ -985,8 +959,8 @@ es:
       review_preferences_step: Asegúrate de poner tus preferencias, como que correos te gustaría recibir, o que nivel de privacidad te gustaría que tus publicaciones tengan por defecto. Si no tiene cinetosis, podría activar la reproducción automática de GIFs.
       subject: Bienvenido a Mastodon
       tip_federated_timeline: La cronología federada es una vista de la red de Mastodon. Pero solo incluye gente que tus vecinos están siguiendo, así que no está completa.
-      tip_following: Sigues a tus administradores de servidor por defecto. Para encontrar más gente interesante, revisa las cronologías locales y federadas.
-      tip_local_timeline: La cronología local es una vista de la gente en %{instance}. Estos son tus vecinos inmediatos!
+      tip_following: Sigue a sus administradores de servidor por defecto. Para encontrar más gente interesante, revisa las cronologías locales y federadas.
+      tip_local_timeline: La cronología local es una vista de la gente en %{instance}. Estos son sus vecinos inmediatos!
       tip_mobile_webapp: Si el navegador de su dispositivo móvil ofrece agregar Mastodon a su página de inicio, puede recibir notificaciones. Actúa como una aplicación nativa en muchas formas!
       tips: Consejos
       title: "¡Te damos la bienvenida a bordo, %{name}!"

@@ -4,36 +4,36 @@ module Mastodon
   module Version
     module_function
 
-    def major
-      2
-    end
-
-    def minor
-      9
-    end
-
-    def patch
+    def compat
       0
     end
 
-    def pre
-      nil
+    def feel
+      0
     end
 
-    def flags
-      'rc1'
+    def feature
+      1
+    end
+
+    def hotfix
+      0
+    end
+
+    def suffix
+        ''
     end
 
     def to_a
-      [major, minor, patch, pre].compact
+      [compat, feel, feature, hotfix]
     end
 
     def to_s
-      [to_a.join('.'), flags].join
+      to_a.push(suffix).join('.')
     end
 
     def repository
-      ENV.fetch('GITHUB_REPOSITORY') { 'tootsuite/mastodon' }
+      ENV.fetch('GITHUB_REPOSITORY') { 'florence-social/mastodon-fork' }
     end
 
     def source_base_url
@@ -54,7 +54,7 @@ module Mastodon
     end
 
     def user_agent
-      @user_agent ||= "#{HTTP::Request::USER_AGENT} (Mastodon/#{Version}; +http#{Rails.configuration.x.use_https ? 's' : ''}://#{Rails.configuration.x.web_domain}/)"
+      @user_agent ||= "#{HTTP::Request::USER_AGENT} (FlorenceMastodon/#{Version}; +http#{Rails.configuration.x.use_https ? 's' : ''}://#{Rails.configuration.x.web_domain}/)"
     end
   end
 end
