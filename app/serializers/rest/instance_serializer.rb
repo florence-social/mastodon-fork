@@ -28,6 +28,14 @@ class REST::InstanceSerializer < ActiveModel::Serializer
   end
 
   def version
+    Mastodon::Version::Equiv.to_s
+  end
+
+  def flavor_name
+    Mastodon::Version.flavor
+  end
+
+  def flavor_version
     Mastodon::Version.to_s
   end
 
