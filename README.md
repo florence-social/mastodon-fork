@@ -9,7 +9,7 @@ more information on Mastodon, you can see the [official website] and the [upstre
 [upstream repo]: https://github.com/tootsuite/mastodon
 
 This version of Mastodon will include much-wanted changes by the community that are not included
-in the upstream version of Mastodon. Migrating from the lastest stable release of Mastodon to
+in the upstream version of Mastodon. Migrating from the latest stable release of Mastodon to
 Florence's Mastodon will always be possible, to ensure that everyone can benefit from these
 changes.
 
