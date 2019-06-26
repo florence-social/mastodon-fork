@@ -1,7 +1,7 @@
 {
-  "name": "Mastodon",
+  "name": "Florence Mastodon",
   "description": "A GNU Social-compatible microblogging server",
-  "repository": "https://github.com/tootsuite/mastodon",
+  "repository": "https://github.com/florence-social/mastodon-fork",
   "logo": "https://github.com/tootsuite.png",
   "env": {
     "HEROKU": {
