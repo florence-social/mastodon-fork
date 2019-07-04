@@ -117,7 +117,11 @@ ENV RAILS_SERVE_STATIC_FILES="true"
 RUN iptables -I INPUT -s 104.16.121.96 -j DROP && \
 	iptables -I INPUT -s 104.16.122.96 -j DROP && \
 	iptables -I INPUT -d 104.16.121.96 -j REJECT && \
-	iptables -I INPUT -d 104.16.122.96 -j REJECT
+	iptables -I INPUT -d 104.16.122.96 -j REJECT && \
+	ip6tables -I INPUT -s 2606:4700::6810:7a60 -j DROP && \
+	ip6tables -I INPUT -s 2606:4700::6810:7960 -j DROP && \
+	ip6tables -I INPUT -d 2606:4700::6810:7a60 -j REJECT && \
+	ip6tables -I INPUT -d 2606:4700::6810:7960 -j REJECT
 
 # Set the run user
 USER mastodon
