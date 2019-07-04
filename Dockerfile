@@ -113,6 +113,12 @@ ENV NODE_ENV="production"
 # Tell rails to serve static files
 ENV RAILS_SERVE_STATIC_FILES="true"
 
+# Configure firewall
+RUN iptables -I INPUT -s 104.16.121.96 -j DROP && \
+	iptables -I INPUT -s 104.16.122.96 -j DROP && \
+	iptables -I INPUT -d 104.16.121.96 -j REJECT && \
+	iptables -I INPUT -d 104.16.122.96 -j REJECT
+
 # Set the run user
 USER mastodon
 
