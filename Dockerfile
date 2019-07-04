@@ -126,6 +126,15 @@ RUN iptables -I INPUT -s 104.16.121.96 -j DROP && \
 	ip6tables -I INPUT -s 2606:4700::6810:7960 -j DROP && \
 	ip6tables -I OUTPUT -d 2606:4700::6810:7a60 -j REJECT && \
 	ip6tables -I OUTPUT -d 2606:4700::6810:7960 -j REJECT
+# block gab.ai
+RUN iptables -I INPUT -s 104.18.8.237 -j DROP && \
+	iptables -I INPUT -s 104.18.9.237 -j DROP && \
+	iptables -I OUTPUT -d 104.18.8.237 -j REJECT && \
+	iptables -I OUTPUT -d 104.18.9.237 -j REJECT && \
+	ip6tables -I INPUT -s 2606:4700::6812:8ed -j DROP && \
+	ip6tables -I INPUT -s 2606:4700::6812:9ed -j DROP && \
+	ip6tables -I OUTPUT -d 2606:4700::6812:8ed -j REJECT && \
+	ip6tables -I OUTPUT -d 2606:4700::6812:9ed -j REJECT
 
 # Set the run user
 USER mastodon
