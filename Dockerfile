@@ -114,10 +114,10 @@ ENV NODE_ENV="production"
 ENV RAILS_SERVE_STATIC_FILES="true"
 
 # Configure firewall
-# block gab.com
+# block develop.gab.com (previous IP)
 RUN iptables -I INPUT -s 165.22.0.19 -j DROP && \
 	iptables -I OUTPUT -d 165.22.0.19 -j REJECT
-# block develop.gab.com
+# block gab.com
 RUN iptables -I INPUT -s 104.16.121.96 -j DROP && \
 	iptables -I INPUT -s 104.16.122.96 -j DROP && \
 	iptables -I OUTPUT -d 104.16.121.96 -j REJECT && \
