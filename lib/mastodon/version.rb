@@ -21,7 +21,7 @@ module Mastodon
     end
 
     def suffix
-        ''
+      '+florence'
     end
 
     def to_a
@@ -29,7 +29,7 @@ module Mastodon
     end
 
     def to_s
-      to_a.push(suffix).join('.')
+      to_a.join('.') + suffix
     end
 
     def repository
