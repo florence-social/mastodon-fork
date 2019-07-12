@@ -420,6 +420,9 @@ fr:
       profile_directory:
         desc_html: Permettre aux utilisateurs d’être découverts
         title: Activer l’annuaire des profils
+      nodeinfo_show_blocks:
+        desc_html: Lister les suspensions, silences et rejets d'instances dans l'API publique nodeinfo
+        title: Activer le listing des blocks dans l'API nodeinfo
       registrations:
         closed_message:
           desc_html: Affiché sur la page d’accueil lorsque les inscriptions sont fermées<br>Vous pouvez utiliser des balises HTML
