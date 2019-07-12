@@ -13,6 +13,7 @@ defaults: &defaults
   max_bio_chars: 500
   max_toot_chars: 500
   profile_directory: true
+  nodeinfo_show_blocks: false
   closed_registrations_message: ''
   open_deletion: true
   min_invite_role: 'admin'

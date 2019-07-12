@@ -32,6 +32,7 @@ module Admin
       @trending_hashtags     = TrendingTags.get(7)
       @profile_directory     = Setting.profile_directory
       @timeline_preview      = Setting.timeline_preview
+      @nodeinfo_show_blocks  = Setting.nodeinfo_show_blocks
     end
 
     private

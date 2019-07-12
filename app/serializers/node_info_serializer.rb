@@ -46,7 +46,7 @@ class NodeInfoSerializer < ActiveModel::Serializer
   end
 
   def metadata
-    {
+    md = {
       nodeName: instance_presenter.site_title,
       nodeDescription: instance_presenter.site_description,
       nodeTerms: instance_presenter.site_terms,
@@ -54,8 +54,9 @@ class NodeInfoSerializer < ActiveModel::Serializer
       domain_count: instance_presenter.domain_count,
       features: features,
       invitesEnabled: Setting.min_invite_role != 'admin',
-      federation: federation,
     }
+    md[:federation] = federation if Setting.nodeinfo_show_blocks
+    md
   end
 
   def features

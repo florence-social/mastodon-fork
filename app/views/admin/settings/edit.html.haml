@@ -72,6 +72,9 @@
   .fields-group
     = f.input :profile_directory, as: :boolean, wrapper: :with_label, label: t('admin.settings.profile_directory.title'), hint: t('admin.settings.profile_directory.desc_html')
 
+  .fields-group
+    = f.input :nodeinfo_show_blocks, as: :boolean, wrapper: :with_label, label: t('admin.settings.nodeinfo_show_blocks.title'), hint: t('admin.settings.nodeinfo_show_blocks.desc_html')
+
   %hr.spacer/
 
   .fields-group

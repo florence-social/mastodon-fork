@@ -420,6 +420,9 @@ en:
       profile_directory:
         desc_html: Allow users to be discoverable
         title: Enable profile directory
+      nodeinfo_show_blocks:
+        desc_html: List instance suspends, silence and rejects in nodeinfo
+        title: Enable showing blocks in nodeinfo
       registrations:
         closed_message:
           desc_html: Displayed on frontpage when registrations are closed. You can use HTML tags
