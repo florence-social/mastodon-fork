@@ -103,6 +103,7 @@ nl:
         setting_display_media_show_all: Alles tonen
         setting_expand_spoilers: Altijd toots met tekstwaarschuwingen uitklappen
         setting_hide_network: Jouw volgers en wie je volgt verbergen
+        setting_home_dms: Directe berichten onder Start tonen
         setting_noindex: Jouw toots niet door zoekmachines laten indexeren
         setting_reduce_motion: Langzamere animaties
         setting_show_application: Toepassing onthullen die je voor het verzenden van toots gebruikt

@@ -405,6 +405,12 @@ nl:
       mascot:
         desc_html: Wordt op meerdere pagina's weergegeven. Tenminste 293×205px aanbevolen. Wanneer dit niet is ingesteld wordt de standaardmascotte getoond
         title: Mascotte-afbeelding
+      max_bio_chars:
+        desc_html: 'Maximum aantal tekens toegestaan in bio (standaard: 500)'
+        title: Max tekens in bio
+      max_toot_chars:
+        desc_html: 'Maximum aantal tekens in toot (standaard: 500)'
+        title: Max tekens in toot
       peers_api_enabled:
         desc_html: Domeinnamen die deze server in de fediverse is tegengekomen
         title: Lijst van bekende servers publiceren
