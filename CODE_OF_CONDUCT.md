@@ -2,36 +2,36 @@
 
 ## Positive participation and communication
 
-    Maintain respectful and effective communication.
-    Use welcoming and inclusive language.
-    Show kindness and respect towards others.
-    Encourage and promote the ideas of others.
-    Be respectful of differing viewpoints and experiences.
-    Assume good faith.
-    Understand the challenges in online discussion.
-    Give others the chance to improve.
-    Keep criticism constructive.
-    Take criticism constructively.
-    Respect others’ privacy.
-    Avoid sexualized language without consent of all parties involved.
-    Don’t resort to personal attacks or condescension.
-    No hate speech or similar.
-    Promote and teach respectful, effective communication.
-    Welcome contributions to the project in all the forms they take.
+* Maintain respectful and effective communication.
+* Use welcoming and inclusive language.
+* Show kindness and respect towards others.
+* Encourage and promote the ideas of others.
+* Be respectful of differing viewpoints and experiences.
+* Assume good faith.
+* Understand the challenges in online discussion.
+* Give others the chance to improve.
+* Keep criticism constructive.
+* Take criticism constructively.
+* Respect others’ privacy.
+* Avoid sexualized language without consent of all parties involved.
+* Don’t resort to personal attacks or condescension.
+* No hate speech or similar.
+* Promote and teach respectful, effective communication.
+* Welcome contributions to the project in all the forms they take.
 
 ## Prohibited Behavior
 
-    No discrimination or comments promoting or reinforcing the oppression of any groups or people based on gender, gender identity and expression, race, ethnicity, nationality, sexuality, sexual orientation, religion, disability, mental illness, neurodivergence, personal appearance, physical appearance, body size, age, or class.
-    No conduct intended to stalk, harass, or intimidate other users.
-    Do not continue to engage in conversation with a user that has specifically requested for said engagement to cease regardless of platform-specific privacy tools employed.
-    No inciting others to engage another user in continued interaction or discussion after a user has requested for said engagement with that user to cease.
-    No xenophobia or violent nationalism.
-    Do not claim “reverse-isms,” e.g. “reverse racism”
-    No sexual or violent imagery without a content warning.
-    No sexualized depictions of minors, in any way. (This includes drawings and 3D renders).
-    No aggregating, posting, and/or disseminating a person’s demographic, personal, or private data without express permission.
-    No posting and/or disseminating a person’s posts, including screen captures or any other content without express permission.
-    No posting or disseminating libel, slander, or other disinformation.
+* No discrimination or comments promoting or reinforcing the oppression of any groups or people based on gender, gender identity and expression, race, ethnicity, nationality, sexuality, sexual orientation, religion, disability, mental illness, neurodivergence, personal appearance, physical appearance, body size, age, or class.
+* No conduct intended to stalk, harass, or intimidate other users.
+* Do not continue to engage in conversation with a user that has specifically requested for said engagement to cease regardless of platform-specific privacy tools employed.
+* No inciting others to engage another user in continued interaction or discussion after a user has requested for said engagement with that user to cease.
+* No xenophobia or violent nationalism.
+* Do not claim “reverse-isms,” e.g. “reverse racism”
+* No sexual or violent imagery without a content warning.
+* No sexualized depictions of minors, in any way. (This includes drawings and 3D renders).
+* No aggregating, posting, and/or disseminating a person’s demographic, personal, or private data without express permission.
+* No posting and/or disseminating a person’s posts, including screen captures or any other content without express permission.
+* No posting or disseminating libel, slander, or other disinformation.
 
 ## Where does this CoC apply and who does this CoC apply to?
 
@@ -81,20 +81,21 @@ Board members, moderators, and other community members who contributed to runnin
 
 ## Definition of Terms
 
-    Inclusivity: Actitude that recognises and considerates people's differences to make a good environment.
-    Race: Social construct tied to fenotipical and social characteristics of a group of people.
-    Gender: Social construct tied to the perception of social and cultural roles. The most common are male and female.
-    Gender expression: It includes a person behavior, mannerisms, interests, and appearance that are associated with gender in a particular cultural context.
-    Sexual orientation: It is the pattern of atracction to 0 or more genders.
-    Disability: A physical or mental condition that limits a person's abilities to interact with their enviroment.
-    Mental illness: Behavioral or mental pattern that causes significant distress or impairment of personal functioning.
-    Neurodivergence: Behavioral or mental pattern that doesn't cause distress but affects the way the person interacts with the enviroment.
-    Marginalization
-    Harassment:Illegal behaviour towards a person that causes mental or emotional suffering, which includes repeated unwanted contacts without a reasonable purpose, insults, threats, touching, or offensive language.
-    Racism: Opression against people of color.
-    Sexism: Opression ejerced on women and non-binary people.
-    Transphobia: Opression ejerced on trans people.
-    Homophobia: Opression against gay people.
-    Ableism: Opression against disabled, ill and/or neurodivergent people.
-    Reverse-isms: Claims about privileged people in an axis are opressed by people opressed in the same axis.
-    Hate speech (includes Hate Speech Holocaust denial or Nazi symbolism): Speech opresses, deshumanizes and endangers marginalized people.
+* Inclusivity: Actitude that recognises and considerates people's differences to make a good environment.
+* Race: Social construct tied to fenotipical and social characteristics of a group of people.
+* Gender: Social construct tied to the perception of social and cultural roles. The most common are male and female.
+* Gender expression: It includes a person behavior, mannerisms, interests, and appearance that are associated with gender in a particular cultural context.
+* Sexual orientation: It is the pattern of atracction to 0 or more genders.
+* Disability: A physical or mental condition that limits a person's abilities to interact with their enviroment.
+* Mental illness: Behavioral or mental pattern that causes significant distress or impairment of personal functioning.
+* Neurodivergence: Behavioral or mental pattern that doesn't cause distress but affects the way the person interacts with the enviroment.
+* Marginalization
+* Harassment:Illegal behaviour towards a person that causes mental or emotional suffering, which includes repeated unwanted contacts without a reasonable purpose, insults, threats, touching, or offensive language.
+* Racism: Opression against people of color.
+* Sexism: Opression ejerced on women and non-binary people.
+* Transphobia: Opression ejerced on trans people.
+* Homophobia: Opression against gay people.
+* Ableism: Opression against disabled, ill and/or neurodivergent people.
+* Reverse-isms: Claims about privileged people in an axis are opressed by people opressed in the same axis.
+* Hate speech (includes Hate Speech Holocaust denial or Nazi symbolism): Speech opresses, deshumanizes and endangers marginalized people.
+
