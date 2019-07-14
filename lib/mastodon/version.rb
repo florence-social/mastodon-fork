@@ -4,32 +4,36 @@ module Mastodon
   module Version
     module_function
 
-    def compat
+    def major
+      2
+    end
+
+    def minor
+      9
+    end
+
+    def patch
       0
     end
 
-    def feel
-      0
+    def pre
+      nil
     end
 
-    def feature
-      1
+    def flags
+      ''
     end
 
-    def hotfix
-      0
+    def to_a
+      [major, minor, patch, pre].compact
     end
 
     def suffix
       '+florence'
     end
 
-    def to_a
-      [compat, feel, feature, hotfix]
-    end
-
     def to_s
-      to_a.join('.') + suffix
+      [to_a.join('.'), flags, suffix].join
     end
 
     def repository
