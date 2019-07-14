@@ -1,5 +1,5 @@
 {
-  "name": "mastodon",
+  "name": "florence-mastodon",
   "license": "AGPL-3.0-or-later",
   "engines": {
     "node": ">=8.12 <12"
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tootsuite/mastodon.git"
+    "url": "https://github.com/florence-social/mastodon-fork.git"
   },
   "browserslist": [
     "last 2 versions",

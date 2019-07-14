@@ -5,7 +5,8 @@ class REST::InstanceSerializer < ActiveModel::Serializer
 
   attributes :uri, :title, :short_description, :description, :email,
              :version, :urls, :stats, :thumbnail,
-             :languages, :registrations, :approval_required
+             :languages, :registrations, :approval_required,
+             :max_toot_chars, :max_bio_chars
 
   has_one :contact_account, serializer: REST::AccountSerializer
 
@@ -37,6 +38,14 @@ class REST::InstanceSerializer < ActiveModel::Serializer
 
   def thumbnail
     instance_presenter.thumbnail ? full_asset_url(instance_presenter.thumbnail.file.url) : full_pack_url('media/images/preview.jpg')
+  end
+
+  def max_toot_chars
+    Setting.max_toot_chars
+  end
+
+  def max_bio_chars
+    Setting.max_bio_chars
   end
 
   def stats

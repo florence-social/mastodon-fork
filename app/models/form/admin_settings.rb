@@ -11,6 +11,8 @@ class Form::AdminSettings
     site_description
     site_extended_description
     site_terms
+    max_bio_chars
+    max_toot_chars
     registrations_mode
     closed_registrations_message
     open_deletion
