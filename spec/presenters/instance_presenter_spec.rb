@@ -85,8 +85,8 @@ describe InstancePresenter do
   end
 
   describe '#version_number' do
-    it 'returns Mastodon::Version' do
-      expect(instance_presenter.version_number).to be(Mastodon::Version)
+    it 'returns Florence::Version' do
+      expect(instance_presenter.version_number).to be(Florence::Version)
     end
   end
 

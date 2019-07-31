@@ -122,7 +122,7 @@ module Mastodon
 
     desc 'version', 'Show version'
     def version
-      say(Mastodon::Version.to_s)
+      say("#{Florence::Version} (equiv: Mastodon #{Mastodon::Version})")
     end
   end
 end
