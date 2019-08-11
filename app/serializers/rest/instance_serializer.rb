@@ -37,11 +37,11 @@ class REST::InstanceSerializer < ActiveModel::Serializer
   end
 
   def max_toot_chars
-    Setting.max_toot_chars
+    Setting.max_toot_chars.to_i
   end
 
   def max_bio_chars
-    Setting.max_bio_chars
+    Setting.max_bio_chars.to_i
   end
 
   def stats
