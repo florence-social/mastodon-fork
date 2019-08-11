@@ -42,6 +42,11 @@ module Admin
       preview_sensitive_media
       profile_directory
     ).freeze
+  
+    INTEGER_SETTINGS = %w(
+      max_bio_chars
+      max_toot_chars
+    ).freeze
 
     UPLOAD_SETTINGS = %w(
       thumbnail
