@@ -96,13 +96,8 @@ class Form::AdminSettings
   def typecast_value(key, value)
     if BOOLEAN_KEYS.include?(key)
       value == '1'
-    # FIXME: `i18n-tasks unused -l en` doesn't seem to like this. Fails with:
-    #   i18n-tasks: Error scanning app/models/form/admin_settings.rb: undefined
-    #   method `to_ast' for false:FalseClass
-    #   Did you mean?  to_s
-    #
-    #else if INTEGER_KEYS.include?(key)
-    #  value.to_i
+    elsif INTEGER_KEYS.include?(key)
+      value.to_i
     else
       value
     end
