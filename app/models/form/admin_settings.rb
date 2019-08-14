@@ -42,6 +42,11 @@ class Form::AdminSettings
     preview_sensitive_media
     profile_directory
   ).freeze
+  
+  INTEGER_KEYS = %i(
+    max_bio_chars
+    max_toot_chars
+  ).freeze
 
   UPLOAD_KEYS = %i(
     thumbnail
@@ -91,6 +96,8 @@ class Form::AdminSettings
   def typecast_value(key, value)
     if BOOLEAN_KEYS.include?(key)
       value == '1'
+    elsif INTEGER_KEYS.include?(key)
+      value.to_i
     else
       value
     end
