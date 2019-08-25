@@ -8,9 +8,25 @@ our [README file].
 
 [README file]: ./README.md
 
+## Pre-Release 0.1.2 [2019-08-18 / v0.0.1.2]
+
+This release fixes a bug from 0.1.1 before the 0.2.0 release.
+
+It doesn't add any upstream changes, and is still based off of [Mastodon 2.9.0] plus the commits
+up to [65efe892cf].
+
+### Fixed
+
+* Toot and biography lengths are offered as integers in the API instead of strings
+    * Thanks to [mthld] and [DagAgren] for finding the bug
+    * Thanks to [1011X] for the fix
+
+[mthld]: https://github.com/mthld
+[DagAgren]: https://github.com/DagAgren
+
 ## Pre-Release 0.1.1 [2019-07-28 / v0.0.1.1]
 
-This release fixes a few bugs from 0.1.1 before the 0.2.0 release.
+This release fixes a few bugs from 0.1.0 before the 0.2.0 release.
 
 It doesn't add any upstream changes, and is still based off of [Mastodon 2.9.0] plus the commits
 up to [65efe892cf].
