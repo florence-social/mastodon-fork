@@ -1,3 +1,5 @@
+OmniAuth.config.allowed_request_methods = [:post]
+
 Rails.application.config.middleware.use OmniAuth::Builder do
   # Vanilla omniauth stategies
 end

@@ -8,6 +8,74 @@ our [README file].
 
 [README file]: ./README.md
 
+## Pre-Release 0.1.2 [2019-08-18 / v0.0.1.2]
+
+This release fixes a bug from 0.1.1 before the 0.2.0 release.
+
+It doesn't add any upstream changes, and is still based off of [Mastodon 2.9.0] plus the commits
+up to [65efe892cf].
+
+### Fixed
+
+* Toot and biography lengths are offered as integers in the API instead of strings
+    * Thanks to [mthld] and [DagAgren] for finding the bug
+    * Thanks to [1011X] for the fix
+
+[mthld]: https://github.com/mthld
+[DagAgren]: https://github.com/DagAgren
+
+## Pre-Release 0.1.1 [2019-07-28 / v0.0.1.1]
+
+This release fixes a few bugs from 0.1.0 before the 0.2.0 release.
+
+It doesn't add any upstream changes, and is still based off of [Mastodon 2.9.0] plus the commits
+up to [65efe892cf].
+
+### Fixed
+
+* Toot and biography lengths are now on /api/v1/instance API, for better app integration
+    * Thanks to [ElliotBerriot] for testing 0.1.0 and finding the bug
+    * Thanks to [1011X] for the fix
+* Toot and biography lengths can actually be saved in the admin UI
+    * Thanks to [ElliotBerriot] for testing 0.1.0 and finding the bug
+    * Thanks to [clarfon] for the fix
+* All of the code has been fixed to include the proper project URL and docker image
+    * Thanks to [ElliotBerriot] for debugging 0.1.0 and finding the errors with the Docker files
+    * Thanks to [clarfon] for the fix
+* Broadcasted version has been reverted to the Mastodon version, so that mastodon.py and other
+  libraries work until we find a better solution
+    * Thanks to [Frinkel] for testing 0.1.0 and finding the bug
+    * Thanks to [halcy] for providing insight into how mastodon.py works
+    * Thanks to [1011X] for the fix
+* Blocking entire instance domains now gives a less judgmental message in the English locale
+    * Thanks to [TrechNex] for the fix
+    * Thanks to [mal0ki] and [clarfon] for reviewing the wording
+* Florence-specific settings have been translated into Dutch
+    * Thanks to [rscmbbng] for the translations
+* The [lastest typo] in the README was corrected
+    * Thanks to [ciderpunx] for the fix
+* A few dependencies were updated to fix various security issues
+    * Prototype pollution vulnerabilities were fixed for handlebars and lodash
+    * Thanks to [1011X] for future-proofing CVE-2015-9284 (OAuth vulnerability)
+
+[lastest typo]: https://github.com/florence-social/mastodon-fork/pull/106/files
+
+[ciderpunx]: https://github.com/ciderpunx
+[ElliotBerriot]: https://github.com/ElliotBerriot
+[Frinkel]: https://github.com/Frinkel
+[halcy]: https://github.com/halcy
+[mal0ki]: https://github.com/mal0ki
+[rscmbbng]: https://github.com/rscmbbng
+[TrechNex]: https://github.com/TrechNex
+
+### Special Thanks
+
+* Thank you to everyone who jumped on the Florence train and set up their own instances! We'll try
+  and compile a list of Florence Mastodon instances some time before the next release.
+* Thank you to @TrechNex for helping set up [installation instructions] on his website!
+
+[installation instructions]: https://bobbymoss.com/index.html#install-florence-prerelease
+
 ## Pre-Release 0.1.0 [2019-06-18 / v0.0.1.0]
 
 This release is based off of [Mastodon 2.9.0] plus the commits up to [65efe892cf].

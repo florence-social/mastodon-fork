@@ -40,6 +40,7 @@ end
 
 gem 'net-ldap', '~> 0.10'
 gem 'omniauth-cas', '~> 1.1'
+gem 'omniauth-rails_csrf_protection', '~> 0.1'
 gem 'omniauth-saml', '~> 1.10'
 gem 'omniauth', '~> 1.9'
 
