@@ -39,7 +39,7 @@ class InstancePresenter
   end
 
   def version_number
-    Mastodon::Version
+    Florence::Version
   end
 
   def source_url

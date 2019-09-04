@@ -16,7 +16,7 @@ class InitialStateSerializer < ActiveModel::Serializer
       search_enabled: Chewy.enabled?,
       repository: Mastodon::Version.repository,
       source_url: Mastodon::Version.source_url,
-      version: Mastodon::Version.to_s,
+      version: Florence::Version.to_s,
       invites_enabled: Setting.min_invite_role == 'user',
       mascot: instance_presenter.mascot&.file&.url,
       profile_directory: Setting.profile_directory,
