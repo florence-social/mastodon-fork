@@ -31,7 +31,7 @@ gem 'charlock_holmes', '~> 0.7.6'
 gem 'iso-639'
 gem 'chewy', '~> 5.0'
 gem 'cld3', '~> 3.2.4'
-gem 'devise', '~> 4.6'
+gem 'devise', '~> 4.7'
 gem 'devise-two-factor', '~> 3.0'
 
 group :pam_authentication, optional: true do
@@ -40,6 +40,7 @@ end
 
 gem 'net-ldap', '~> 0.10'
 gem 'omniauth-cas', '~> 1.1'
+gem 'omniauth-rails_csrf_protection', '~> 0.1'
 gem 'omniauth-saml', '~> 1.10'
 gem 'omniauth', '~> 1.9'
 

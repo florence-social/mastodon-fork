@@ -16,7 +16,8 @@ module Admin
       @deletions_enabled     = Setting.open_deletion
       @invites_enabled       = Setting.min_invite_role == 'user'
       @search_enabled        = Chewy.enabled?
-      @version               = Mastodon::Version.to_s
+      @version               = Florence::Version.to_s
+      @masto_version         = Mastodon::Version.to_s
       @database_version      = ActiveRecord::Base.connection.execute('SELECT VERSION()').first['version'].match(/\A(?:PostgreSQL |)([^\s]+).*\z/)[1]
       @redis_version         = redis_info['redis_version']
       @reports_count         = Report.unresolved.count
