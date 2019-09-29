@@ -132,7 +132,6 @@ Board members, moderators, and other community members who contributed to runnin
 * Mental illness: Behavioral or mental pattern that causes significant distress or impairment of personal functioning.
 * Neurodivergence: Behavioral or mental pattern that doesn't cause distress but affects the way the person interacts with the environment.
 * Marginalization: This is predominantly a social phenomenon by which a minority or sub-group is excluded, and their needs or desires ignored.
-Read more: http://www.businessdictionary.com/definition/marginalization.html
 * Harassment: Illegal behaviour towards a person that causes mental or emotional suffering, which includes repeated unwanted contacts without a reasonable purpose, insults, threats, touching, or offensive language.
 * Racism: Oppression against people of color.
 * Sexism: Opression against on women and non-binary people.
