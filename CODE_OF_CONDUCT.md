@@ -77,7 +77,7 @@ Most people will feel more comfortable reporting the code of conduct violation r
 We encourage you to report incidents, even if you are unsure whether the incident is a violation, or whether the space where it happened is covered by this Code of Conduct. We would much rather have a few extra reports where we decide to take no action, than miss a report of an actual violation. We do not look negatively on you if we find the incident is not a violation. Knowing about incidents that are not violations, or happen outside our spaces, can help us to improve the Code of Conduct and the processes surrounding it.
 
 ## What happens after you file a report? 
-You will receive an email from the moderators acknowledging receipt. The current Working Group members are @1011X@mastodon.social, @jhaye@social.libre.fi and @skrlet13@chile.masto.host.
+You will receive an email from the moderators acknowledging receipt. The current Working Group members are [@1011X@mastodon.social](https://mastodon.social/@1011X), [@jhaye@social.libre.fi](https://social.libre.fi/@jhaye) and [@skrlet13@chile.masto.host](https://chile.masto.host/@skrlet13) ..
 
 The moderators will meet to review the incident and determine:
 * What happened based on the perspective of all involved.
