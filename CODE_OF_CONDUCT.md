@@ -140,3 +140,5 @@ Board members, moderators, and other community members who contributed to runnin
 * Ableism: Oppression against disabled, ill, and/or neurodivergent people.
 * Reverse-isms: Claims about privileged people in an axis are oppressed by people oppressed in the same axis.
 * Hate speech (includes Holocaust denial or Nazi symbolism): Speech that oppresses, dehumanizes, and endangers marginalized people.
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
