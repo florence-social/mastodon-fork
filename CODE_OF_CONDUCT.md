@@ -72,7 +72,7 @@ Please include any relevant details, links, screenshots, context, or other infor
 ## Code of Conduct Reporting Guide 
 Most people will feel more comfortable reporting the code of conduct violation rather than directly confronting it, and we encourage those people to email report@florencesoc.org. '''All reports will be kept confidential.''' In some cases we may determine that a public statement will need to be made in order to inform the broader community. If this need arises, the identities of all parties involved will remain confidential unless those individuals instruct us otherwise.
 
-'''If you believe anyone is in physical danger, please notify appropriate law enforcement first.''' If you are unsure what law enforcement agency is appropriate, please include this in your report and we will attempt to notify them.
+**If you believe anyone is in physical danger, please notify appropriate law enforcement first.** If you are unsure what law enforcement agency is appropriate, please include this in your report and we will attempt to notify them.
 
 We encourage you to report incidents, even if you are unsure whether the incident is a violation, or whether the space where it happened is covered by this Code of Conduct. We would much rather have a few extra reports where we decide to take no action, than miss a report of an actual violation. We do not look negatively on you if we find the incident is not a violation. Knowing about incidents that are not violations, or happen outside our spaces, can help us to improve the Code of Conduct and the processes surrounding it.
 
