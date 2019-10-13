@@ -48,7 +48,7 @@ Consider the situation and if it might be useful to screenshot messages in case 
 
 The person may not be completely aware of the Code of Conduct or specific items within it. *If you consider it safe* and you are comfortable in doing so you can start by letting them know that their actions weren’t appropriate and point them to specific parts of the Code of Conduct. One suggestion is to send a private message first, because this can avoid potentially embarrassing someone. Politely and patiently let the person know that their behavior isn’t in line with the Code of Conduct. Share the code of conduct with them and refer to specific parts which you think their behavior is not in line with. You may ask them to adjust their behavior or possibly edit or delete a message. 
 
-’’If you don’t feel safe or comfortable’’ telling that person, or they refuse to change their behavior or delete text which is not in line with the CoC, it may be time to report the incident. See how to report an incident in the following section. You may also directly contact admins or moderators, especially if the behavior requires immediate attention
+*If you don’t feel safe or comfortable* telling that person, or they refuse to change their behavior or delete text which is not in line with the CoC, it may be time to report the incident. See how to report an incident in the following section. You may also directly contact admins or moderators, especially if the behavior requires immediate attention
 
 ### Example 
 Mary calls John an ableist slur in a discussion chat because he made a mistake. Ana tells Mary via DM that she shouldn't do that because it reinforces the oppression of disabled or neurodivergent people, but Mary calls Ana the same slur, and says that she shouldn't take this so seriously. Then, Ana proceeds to report Mary to a moderator.
@@ -70,7 +70,7 @@ Please include any relevant details, links, screenshots, context, or other infor
 * Any additional information that is relevant to investigating and resolving the incident.
 
 ## Code of Conduct Reporting Guide 
-Most people will feel more comfortable reporting the code of conduct violation rather than directly confronting it, and we encourage those people to email report@florencesoc.org. '''All reports will be kept confidential.''' In some cases we may determine that a public statement will need to be made in order to inform the broader community. If this need arises, the identities of all parties involved will remain confidential unless those individuals instruct us otherwise.
+Most people will feel more comfortable reporting the code of conduct violation rather than directly confronting it, and we encourage those people to email report@florencesoc.org. **All reports will be kept confidential.** In some cases we may determine that a public statement will need to be made in order to inform the broader community. If this need arises, the identities of all parties involved will remain confidential unless those individuals instruct us otherwise.
 
 **If you believe anyone is in physical danger, please notify appropriate law enforcement first.** If you are unsure what law enforcement agency is appropriate, please include this in your report and we will attempt to notify them.
 
