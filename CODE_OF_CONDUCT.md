@@ -93,8 +93,8 @@ Once the moderators have a complete account of the events, they will make a deci
 * A public gentle reminder of the code of conduct.
 * A private reprimand from the working group to the individual(s) involved.
 * A public reprimand.
-* An imposed vacation (i.e. asking someone to "take a week off" from a mailing list, Slack, or IRC).
-* A temporary (for a specified time) or indefinite ban from some or all OpenZFS spaces (mailing lists, Slack, IRC, events, etc.)
+* An imposed vacation (i.e. asking someone to "take a week off" from a space).
+* A temporary (for a specified time) or indefinite ban from some or all Florence Work Spaces.
 
 We'll respond within one week to the person who filed the report with either a resolution or an explanation of why the situation is not yet resolved.
 
