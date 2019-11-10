@@ -23,7 +23,7 @@
   
 # Code of Conduct
 
-We strive to reduce barriers to access of our organisation, our software and our community, as well as to dismantle any ableist assumptions and practices in our process. We recognize that there is no one solution for universal accessibility, and strive to provide alternatives and choices whenever possible.
+We strive to reduce barriers to access of our organization, our software and our community, as well as to dismantle any ableist assumptions and practices in our process. We recognize that there is no one solution for universal accessibility, and strive to provide alternatives and choices whenever possible.
 The stakeholders of this project pledge to institute and abide by a consistent, transparent and accountable human-centered resolution process with a low bar to entry that allows every stakeholder a voice on decisions to do with structural changes and features of both the project's organization and software protocol.
 If you support an idea, we would like you to help implement it. If you reject an idea, we ask you to help find alternatives.
 
@@ -61,9 +61,9 @@ There is also going to be behaviour that will be more strictly prohibited.
 ### Harassment and privacy violation
 
 * Do not contribute to behaviour intended to stalk, harass, or intimidate other users.
-* Do not continue to engage with a user that has specifically asked you to stop, whether or not they have blocked or muted you. Do not ask others to engage with them on your behalf.
-* Do not participate in aggregating, posting, and/or disseminating a person’s demographic, personal, or private data without express permission.
-* Do not post or circulate disseminate a person’s posts, including screen captures or any other content, without express permission, unless to protect others from the bad behaviour displayed.
+* Do not continue to engage with a user that has specifically asked you to stop, regardless of whether they have blocked or muted you. Do not ask others to engage with them on your behalf.
+* Do not participate in aggregating, posting, and/or disseminating a person’s demographic, personal, or private data without their express permission.
+* Do not post or circulate disseminate a person’s posts, including screen captures or any other content, without their express permission, unless to protect others from the bad behaviour displayed.
 * Do not post or circulate libel, slander, or other known disinformation.
 
 ### Harmful and/or adult content
@@ -85,11 +85,11 @@ Use your judgement, but always feel free to let us know -- we’d rather know mo
 
 ## When Something Happens
 
-If you see behavior that is not aligned with this Code of Conduct, here’s how you can handle it.
+If you see behavior that is not aligned with this Code of Conduct, here's how you can handle it.
 
 Consider the situation and if it might be useful to screenshot messages in case the messages in question are deleted.
 
-The person may not be completely aware of the Code of Conduct or specific items within it. **If you consider it safe** and you are comfortable in doing so you can start by letting them know that their actions weren’t appropriate and point them to specific parts of the Code of Conduct. One suggestion is to send a private message first, because this can avoid potentially embarrassing someone. Politely and patiently let the person know that their behavior isn’t in line with the Code of Conduct. Share the code of conduct with them and refer to specific parts which you think their behavior is not in line with. You may ask them to adjust their behavior or possibly edit or delete a message.
+The person may not be completely aware of the Code of Conduct or specific items within it. **If you consider it safe** and you are comfortable in doing so you can start by letting them know that their actions weren't appropriate and point them to specific parts of the Code of Conduct. One suggestion is to send a private message first, because this can avoid potentially embarrassing someone. Politely and patiently let the person know that their behavior isn’t in line with the Code of Conduct. Share the code of conduct with them and refer to specific parts which you think their behavior is not in line with. You may ask them to adjust their behavior or possibly edit or delete a message.
 
 **If you don’t feel safe or comfortable** telling that person, or they refuse to change their behavior or delete text which is not in line with the CoC, it may be time to report the incident. See how to report an incident in the following section. You may also directly contact admins or moderators, especially if the behavior requires immediate attention
 
@@ -134,7 +134,7 @@ The moderators will meet to review the incident and determine:
 * Who the bad actor was.
 * Whether this is an ongoing situation, or if there is a threat to anyone's physical safety.
 
-We promise to acknowledge receipt within 48 hours (and will aim for a faster response). If this is determined to be an ongoing incident or a threat to physical safety, the working groups' immediate priority will be to protect everyone involved. This means we may delay an "official" response until we believe that the situation has ended and that everyone is physically safe.
+We promise to acknowledge receipt within 72 hours (and will aim for a faster response). If this is determined to be an ongoing incident or a threat to physical safety, the working groups' immediate priority will be to protect everyone involved. This means we may delay an "official" response until we believe that the situation has ended and that everyone is physically safe.
 
 Once the moderators have a complete account of the events, they will make a decision as to how to respond. Responses may include:
 
@@ -168,7 +168,7 @@ Moderators will take all reports seriously and prioritize the well-being and com
 
 As soon as available, a moderator will join, identify themselves, and take further action.
 
-Offer people the kind of support they ask for. If you aren't sure what you're offering will be helpful, ask if that type of thing would be useful.
+You should offer people the kind of support they ask for. If you aren't sure what you're offering will be helpful, ask if that type of thing would be useful.
 
 ## Accountability for board members and moderators
 
