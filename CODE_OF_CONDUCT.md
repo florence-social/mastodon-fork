@@ -1,12 +1,5 @@
-This document includes suggestions made for the code of conduct from the initial survey, the Fork meeting Code of Conduct (link), suggestions made in the discord #code-of-conduct channel, and subsequently additions made to the document directly. It may be that not all parts of this document will be included in the Code of Conduct. This is intended as more of a brainstorming document where all ideas may be proposed.
-
-Proposals made should be treated with respect and not be ignored. Comment to propose an alternative wording, advocate for the removal of a line, or to otherwise discuss specific points. If you use the “Suggesting” functionality you can propose an edit to line and make it clear what the last version is.
-
 ### Table of Contents
 
-- [Guiding principles of the CoC](#guiding-principles-of-the-coc)
-  - [Goals for the Code of Conduct](#goals-for-the-code-of-conduct)
-  - [CoC Outline Brainstorm](#coc-outline-brainstorm)
 - [Code of Conduct](#code-of-conduct)
   - [Positive participation and communication](#positive-participation-and-communication)
   - [Prohibited Behavior](#prohibited-behavior)
@@ -26,45 +19,8 @@ Proposals made should be treated with respect and not be ignored. Comment to pro
   - [How CoC Reports are handled by moderators](#how-coc-reports-are-handled-by-moderators)
   - [Accountability for board members and moderators](#accountability-for-board-members-and-moderators)
   - [Definition of Terms](#definition-of-terms)
-  - [Original Source Links](#original-source-links)
-    - [Reference Codes of Conduct](#reference-codes-of-conduct)
-
-# Guiding principles of the CoC
-
-## Goals for the Code of Conduct
-
-The Code of Conduct should
-
-* Be Inclusive.
-* Use welcoming and inclusive language.
-* Protect vulnerable members and establish plans to deal with incidents.
-* Emphasize the importance of kindness and empathy.
-* Apply to community members, board members, and contributors.
-* Provide a description of how members may be held accountable and how conflicts will be managed transparently.
-* Allow people accusing someone of sexual assault or behaviour of a similarly serious nature to be heard fully, without prejudice, and as soon as possible.
-* Provide constructive ways to deal with conflict in the community (meetings, polls...).
-
-We strive to reduce barriers to access of our organisation, our software and our community, as well as to dismantle any ableist assumptions and practices in our process. We recognize that there is no one solution for universal accessibility, and strive to provide alternatives and choices whenever possible.
-
-The stakeholders of this project pledge to institute and abide by a consistent, transparent and accountable human-centered resolution process with a low bar to entry that allows every stakeholder a voice on decisions to do with structural changes and features of both the project's organization and software protocol.
-
-If you support an idea, you must contribute towards its implementation.
-If you reject an idea, you must contribute to an alternative solution to the problem it tries to solve.
-
-## CoC Outline Brainstorm
-
-* Principles of positive participation and communication.
-* Where does this CoC apply?
-* Who does this CoC apply to?
-* Prohibited behavior.
-* When something happens - Give the chance to improve.
-* Examples of how promote and teach respectful, effective communication.
-* How to make a Code Of Conduct Report.
-* Outline how CoC reports will be handled in a transparent and fair way.
-* How CoC Reports are handled by moderators.
-* Accountability for board members of moderators.
-* Definitions of terms.
-
+  - [Reference Codes of Conduct](#reference-codes-of-conduct)
+  
 # Code of Conduct
 
 We strive to reduce barriers to access of our organisation, our software and our community, as well as to dismantle any ableist assumptions and practices in our process. We recognize that there is no one solution for universal accessibility, and strive to provide alternatives and choices whenever possible.
@@ -242,13 +198,7 @@ We acknowledge that systemic (structural) oppression works on a society-wide lev
 * **Transphobia**: Discrimination against trans people. This includes arguing someone’s gender, policing their presentation, and malicious misgendering.
 * **Tone Policing**: Attempts to dismiss marginalized people's perspectives by claiming their tone, rather than the content, is unappealing.
 
-## Original Source Links
-
-- [Maloki’s CoC Working document](https://docs.google.com/document/d/1m2c93jLqjnXpcNRwQIG_EqWVwdsDIJWBzSvA8ahLUOw/)
-- [CoC working document 2](https://docs.google.com/document/d/1ICzz6lPXqwxff86A908NgBCCbKgfXdbA1q90MIPWen4)
-- [CoC Survey](https://docs.google.com/spreadsheets/d/1nHwX3rpMQzl4S_JO5h12-1-_Ndzp4__wtkAOOBzdgks/edit#gid=899943987)
-
-### Reference Codes of Conduct
+## Reference Codes of Conduct
 
 * http://open-zfs.org/wiki/Reporting_Guide
 * https://wiki.snowdrift.coop/community/conduct
