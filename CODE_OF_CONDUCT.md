@@ -169,7 +169,7 @@ We encourage you to report incidents, even if you are unsure whether the inciden
 
 ## What happens after you file a report?
 
-You will receive an email from the moderators acknowledging receipt. The current Working Group members are [@1011X@mastodon.social](https://mastodon.social/@1011X), [@jhaye@social.libre.fi](https://social.libre.fi/@jhaye), and [@skrlet13@chile.masto.host](https://chile.masto.host/@skrlet13).
+You will receive an email from the moderators acknowledging receipt. The current Working Group members are [@1011X@mastodon.social](https://mastodon.social/@1011X), [@jhaye@social.libre.fi](https://social.libre.fi/jhaye), and [@skrlet13@chile.masto.host](https://chile.masto.host/@skrlet13).
 
 The moderators will meet to review the incident and determine:
 
