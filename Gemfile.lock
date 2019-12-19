@@ -428,7 +428,7 @@ GEM
     pundit (2.0.1)
       activesupport (>= 3.0.0)
     raabro (1.1.6)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-attack (6.0.0)
       rack (>= 1.0, < 3)
     rack-cors (1.0.3)
