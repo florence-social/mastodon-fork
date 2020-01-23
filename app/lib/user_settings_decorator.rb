@@ -35,6 +35,7 @@ class UserSettingsDecorator
     user.settings['home_dms']            = home_dms_preference if change?('setting_home_dms')
     user.settings['show_application']    = show_application_preference if change?('setting_show_application')
     user.settings['advanced_layout']     = advanced_layout_preference if change?('setting_advanced_layout')
+    user.settings['blurhash_enabled']    = blurhash_enabled_preference if change?('setting_blurhash_enabled')
   end
 
   def merged_notification_emails
@@ -99,6 +100,10 @@ class UserSettingsDecorator
 
   def theme_preference
     settings['setting_theme']
+  end
+
+  def blurhash_enabled_preference
+    boolean_cast_setting 'setting_blurhash_enabled'
   end
 
   def default_language_preference

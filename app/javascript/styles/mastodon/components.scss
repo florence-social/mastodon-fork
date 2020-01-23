@@ -3309,6 +3309,10 @@ a.status-card.compact:hover {
     width: 100%;
     height: 100%;
     border: 0;
+    
+    &__blurhash-disabled {
+      background: darken($ui-base-color, 6%);
+    }
 
     &__label {
       display: inline-block;

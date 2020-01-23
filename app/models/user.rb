@@ -189,6 +189,10 @@ class User < ApplicationRecord
     settings.default_privacy || (account.locked? ? 'private' : 'public')
   end
 
+  def setting_blurhash_enabled
+    settings.blurhash_enabled.nil? ? true : settings.blurhash_enabled
+  end
+
   def allows_digest_emails?
     settings.notification_emails['digest']
   end
