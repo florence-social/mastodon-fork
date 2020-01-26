@@ -42,6 +42,45 @@ RSpec.describe ActivityPub::Activity::Create do
         end
       end
 
+      context 'Article object type' do
+        let(:object_json) do
+          {
+            id: [ActivityPub::TagManager.instance.uri_for(sender), '#bar'].join,
+            type: 'Article',
+            content: 'Lorem ipsum <ul><li>one</li><li>two</li><li>three</li></ul>',
+            name: 'Dolor sit',
+          }
+        end
+
+        it 'creates status with activity_pub_type' do
+          status = sender.statuses.first
+
+          expect(status).to_not be_nil
+          expect(status.text).to eq '<span class=\'article-type\'>Lorem ipsum <ul><li>one</li><li>two</li><li>three</li></ul></span>'
+          expect(status.activity_pub_type).to eq 'Article'
+          expect(status.spoiler_text).to eq 'Dolor sit'
+        end
+      end
+
+      context 'Article object with inline image' do
+        let(:object_json) do
+          {
+            id: [ActivityPub::TagManager.instance.uri_for(sender), '#bar'].join,
+            type: 'Article',
+            content: '<img src="http://example.com/attachment.png">',
+            name: 'Dolor sit',
+          }
+        end
+
+        it 'creates status with inline image' do
+          status = sender.statuses.first
+
+          expect(status).to_not be_nil
+          expect(status.text).to match /<span\ class='article\-type'><img\ src="\/system\/media_attachments\/files\/.*.png.*"><\/span>/
+          expect(status.activity_pub_type).to eq 'Article'
+          expect(status.spoiler_text).to eq 'Dolor sit'
+        end
+      end
       context 'standalone' do
         let(:object_json) do
           {
