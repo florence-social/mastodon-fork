@@ -39,6 +39,36 @@ into the fork so that people have a central version to upgrade to. Once we've fi
 software to the point where we like it, we will release the first official release, which will be
 named something special. Stay tuned!
 
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/florence-social/mastodon-fork/graphs/contributors"><img src="https://opencollective.com/florence-social/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/florence-social/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/florence-social"><img src="https://opencollective.com/florence-social/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/florence-social/contribute)]
+
+<a href="https://opencollective.com/florence-social/organization/0/website"><img src="https://opencollective.com/florence-social/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/florence-social/organization/1/website"><img src="https://opencollective.com/florence-social/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/florence-social/organization/2/website"><img src="https://opencollective.com/florence-social/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/florence-social/organization/3/website"><img src="https://opencollective.com/florence-social/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/florence-social/organization/4/website"><img src="https://opencollective.com/florence-social/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/florence-social/organization/5/website"><img src="https://opencollective.com/florence-social/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/florence-social/organization/6/website"><img src="https://opencollective.com/florence-social/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/florence-social/organization/7/website"><img src="https://opencollective.com/florence-social/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/florence-social/organization/8/website"><img src="https://opencollective.com/florence-social/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/florence-social/organization/9/website"><img src="https://opencollective.com/florence-social/organization/9/avatar.svg"></a>
+
 ## License
 
 Copyright (C) 2016-2019 Florence, Eugen Rochko, and many other Mastodon contributors; see [AUTHORS.md](AUTHORS.md).

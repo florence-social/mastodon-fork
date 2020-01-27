@@ -14,7 +14,8 @@
     "test:lint": "${npm_execpath} run test:lint:js && ${npm_execpath} run test:lint:sass",
     "test:lint:js": "eslint --ext=js .",
     "test:lint:sass": "sass-lint -v",
-    "test:jest": "cross-env NODE_ENV=test jest --coverage"
+    "test:jest": "cross-env NODE_ENV=test jest --coverage",
+    "postinstall": "opencollective-postinstall || true"
   },
   "repository": {
     "type": "git",
@@ -116,6 +117,7 @@
     "object-fit-images": "^3.2.3",
     "object.values": "^1.1.0",
     "offline-plugin": "^5.0.7",
+    "opencollective-postinstall": "^2.0.2",
     "path-complete-extname": "^1.0.0",
     "pg": "^6.4.0",
     "postcss-loader": "^3.0.0",
@@ -182,5 +184,9 @@
     "sass-lint": "^1.13.1",
     "webpack-dev-server": "^3.5.1",
     "yargs": "^12.0.5"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/florence-social"
   }
 }
