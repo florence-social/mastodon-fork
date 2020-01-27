@@ -431,7 +431,8 @@ GEM
     rack (2.0.7)
     rack-attack (6.0.0)
       rack (>= 1.0, < 3)
-    rack-cors (1.0.3)
+    rack-cors (1.0.5)
+      rack (>= 1.6.0)
     rack-protection (2.0.5)
       rack
     rack-proxy (0.6.5)
