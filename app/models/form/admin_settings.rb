@@ -27,6 +27,7 @@ class Form::AdminSettings
     preview_sensitive_media
     custom_css
     profile_directory
+    nodeinfo_show_blocks
     thumbnail
     hero
     mascot
@@ -41,6 +42,7 @@ class Form::AdminSettings
     show_known_fediverse_at_about_page
     preview_sensitive_media
     profile_directory
+    nodeinfo_show_blocks
   ).freeze
   
   INTEGER_KEYS = %i(
@@ -149,6 +151,8 @@ class Form::AdminSettings
     :custom_css=,
     :profile_directory,
     :profile_directory=,
+    :nodeinfo_show_blocks,
+    :nodeinfo_show_blocks=,
     to: Setting
   )
 end

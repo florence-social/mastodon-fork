@@ -31,6 +31,10 @@ module ApplicationHelper
     Setting.registrations_mode == 'none'
   end
 
+  def nodeinfo_show_blocks
+    Setting.nodeinfo_show_blocks
+  end
+
   def available_sign_up_path
     if closed_registrations?
       'https://joinmastodon.org/#getting-started'

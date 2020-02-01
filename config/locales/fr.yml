@@ -411,6 +411,9 @@ fr:
       max_toot_chars:
         desc_html: Longeur maximale des pouets en nombre de charactères (500 par défaut)
         title: Longeur maximale des pouets
+      nodeinfo_show_blocks:
+        desc_html: Lister les suspensions, silences et rejets d'instances dans l'API publique nodeinfo
+        title: Activer le listing des blocks dans l'API nodeinfo
       peers_api_enabled:
         desc_html: Noms des domaines que ce serveur a découvert dans le fediverse
         title: Publier la liste des serveurs découverts

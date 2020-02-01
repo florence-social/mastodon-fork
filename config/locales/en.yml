@@ -411,6 +411,9 @@ en:
       max_toot_chars:
         desc_html: 'Maximum toot length in characters (default: 500)'
         title: Max toot size
+      nodeinfo_show_blocks:
+        desc_html: List instance suspends, silence and rejects in the public nodeinfo API
+        title: Enable showing blocks in nodeinfo API
       peers_api_enabled:
         desc_html: Domain names this server has encountered in the fediverse
         title: Publish list of discovered servers
