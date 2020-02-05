@@ -39,4 +39,12 @@ class DomainBlock < ApplicationRecord
     scope = suspend? ? accounts.where(suspended_at: created_at) : accounts.where(silenced_at: created_at)
     scope.count
   end
+
+  after_save :process_domain_block
+
+  private
+
+  def process_domain_block
+    DomainBlockWorker.perform_in(2.minutes, id)
+  end
 end

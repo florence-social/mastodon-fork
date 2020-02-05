@@ -489,9 +489,26 @@ class Account < ApplicationRecord
   before_create :generate_keys
   before_validation :prepare_contents, if: :local?
   before_validation :prepare_username, on: :create
+  before_save :preempt_domain_block, on: :create, unless: :local?
   before_destroy :clean_feed_manager
 
   private
+
+  def preempt_domain_block
+    unless Account.exists?(domain: domain) || DomainBlock.exists?(domain: domain)
+      Rails.logger.info "Quarantining new domain #{username}@#{domain}"
+      admin = Account.joins(:user).merge(User.staff).first
+      ReportWorker.perform_in(
+        2.minutes,
+        admin.id,
+        username,
+        domain,
+        comment: 'Quarantined new domain',
+        forward: false,
+      )
+      DomainBlock.new(domain: domain, severity: :suspend, reject_media: true, reject_reports: true).save!
+    end
+  end
 
   def prepare_contents
     display_name&.strip!
