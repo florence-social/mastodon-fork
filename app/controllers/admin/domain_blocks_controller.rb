@@ -26,7 +26,6 @@ module Admin
           @domain_block.update(resource_params)
         end
         if @domain_block.save
-          DomainBlockWorker.perform_async(@domain_block.id)
           log_action :create, @domain_block
           redirect_to admin_instances_path(limited: '1'), notice: I18n.t('admin.domain_blocks.created_msg')
         else
