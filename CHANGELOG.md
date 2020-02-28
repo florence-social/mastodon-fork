@@ -5,6 +5,11 @@ changelog here.](https://github.com/tootsuite/mastodon/blob/master/CHANGELOG.md)
 
 Please note that this project doesn't follow semantic versioning— for details please have a look at
 our [README file].
+## [2.9.4] - 2020-02-27
+### Security
+
+- Fix leak of arbitrary statuses through unfavourite action in REST API ([Gargron](https://github.com/tootsuite/mastodon/pull/13161))
+
 ## [2.9.3] - 2019-08-10
 ### Added
 
