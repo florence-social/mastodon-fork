@@ -1,8 +1,9 @@
----
 en_GB:
   about:
-    about_hashtag_html: These are public toots tagged with <strong>#%{hashtag}</strong>. You can interact with them if you have an account anywhere in the fediverse.
-    about_mastodon_html: Mastodon is a social network based on open web protocols and free, open-source software. It is decentralized like e-mail.
+    about_hashtag_html: These are public toots tagged with <strong>#%{hashtag}</strong>.
+      You can interact with them if you have an account anywhere in the fediverse.
+    about_mastodon_html: Mastodon is a social network based on open web protocols
+      and free, open-source software. It is decentralized like e-mail.
     about_this: About
     active_count_after: active
     active_footnote: Monthly Active Users (MAU)
@@ -20,7 +21,8 @@ en_GB:
     extended_description_html: |
       <h3>1A good place for rules</h3>2
       <p>3The extended description has not been set up yet.</p>4
-    federation_hint_html: With an account on %{instance} you'll be able to follow people on any Mastodon server and beyond.
+    federation_hint_html: With an account on %{instance} you'll be able to follow
+      people on any Mastodon server and beyond.
     generic_description: "%{domain} is one server in the network"
     get_apps: Try a mobile app
     hosted_on: Mastodon hosted on %{domain}
@@ -69,6 +71,7 @@ en_GB:
       bot: Bot
       moderator: Mod
     unfollow: Unfollow
+    unavailable: Profile unavailable
   admin:
     account_actions:
       action: Perform action
@@ -178,6 +181,10 @@ en_GB:
       username: Username
       warn: Warn
       web: Web
+      time_in_queue: Waiting in queue %{time}
+      reject_all: Reject all
+      no_account_selected: No accounts were changed as none were selected
+      approve_all: Approve all
     action_logs:
       actions:
         assigned_to_self_report: "%{name} assigned report %{target} to themselves"
@@ -259,6 +266,7 @@ en_GB:
       week_interactions: interactions this week
       week_users_active: active this week
       week_users_new: users this week
+      feature_timeline_preview: Timeline preview
     domain_blocks:
       add_new: Add new domain block
       created_msg: Domain block is now being processed
@@ -266,17 +274,24 @@ en_GB:
       domain: Domain
       new:
         create: Create block
-        hint: The domain block will not prevent creation of account entries in the database, but will retroactively and automatically apply specific moderation methods on those accounts.
+        hint: The domain block will not prevent creation of account entries in the
+          database, but will retroactively and automatically apply specific moderation
+          methods on those accounts.
         severity:
-          desc_html: "<strong>Silence</strong> will make the account's posts invisible to anyone who isn't following them. <strong>Suspend</strong> will remove all of the account's content, media, and profile data. Use <strong>None</strong> if you just want to reject media files."
+          desc_html: "<strong>Silence</strong> will make the account's posts invisible\
+            \ to anyone who isn't following them. <strong>Suspend</strong> will remove\
+            \ all of the account's content, media, and profile data. Use <strong>None</strong>\
+            \ if you just want to reject media files."
           noop: None
           silence: Silence
           suspend: Suspend
         title: New domain block
       reject_media: Reject media files
-      reject_media_hint: Removes locally stored media files and refuses to download any in the future. Irrelevant for suspensions
+      reject_media_hint: Removes locally stored media files and refuses to download
+        any in the future. Irrelevant for suspensions
       reject_reports: Reject reports
-      reject_reports_hint: Ignore all reports coming from this domain. Irrelevant for suspensions
+      reject_reports_hint: Ignore all reports coming from this domain. Irrelevant
+        for suspensions
       rejecting_media: rejecting media files
       rejecting_reports: rejecting reports
       severity:
@@ -285,13 +300,15 @@ en_GB:
       show:
         affected_accounts:
           one: One account in the database affected
-          other: "%{count} accounts in the database affected"
+          other: '%{count} accounts in the database affected'
         retroactive:
           silence: Unsilence all existing accounts from this domain
           suspend: Unsuspend all existing accounts from this domain
         title: Undo domain block for %{domain}
         undo: Undo
       undo: Undo domain block
+      existing_domain_block_html: You have already imposed stricter limits on %{name},
+        you need to <a href="%{unblock_url}">unblock it</a> first.
     email_domain_blocks:
       add_new: Add new
       created_msg: Successfully added e-mail domain to blacklist
@@ -309,8 +326,8 @@ en_GB:
       by_domain: Domain
       delivery_available: Delivery is available
       known_accounts:
-        one: "%{count} known account"
-        other: "%{count} known accounts"
+        one: '%{count} known account'
+        other: '%{count} known accounts'
       moderation:
         all: All
         limited: Limited
@@ -332,11 +349,16 @@ en_GB:
     relays:
       add_new: Add new relay
       delete: Delete
-      description_html: A <strong>federation relay</strong> is an intermediary server that exchanges large volumes of public toots between servers that subscribe and publish to it. <strong>It can help small and medium servers discover content from the fediverse</strong>, which would otherwise require local users manually following other people on remote servers.
+      description_html: A <strong>federation relay</strong> is an intermediary server
+        that exchanges large volumes of public toots between servers that subscribe
+        and publish to it. <strong>It can help small and medium servers discover content
+        from the fediverse</strong>, which would otherwise require local users manually
+        following other people on remote servers.
       disable: Disable
       disabled: Disabled
       enable: Enable
-      enable_hint: Once enabled, your server will subscribe to all public toots from this relay, and will begin sending this server's public toots to it.
+      enable_hint: Once enabled, your server will subscribe to all public toots from
+        this relay, and will begin sending this server's public toots to it.
       enabled: Enabled
       inbox_url: Relay URL
       pending: Waiting for relay's approval
@@ -379,10 +401,12 @@ en_GB:
       updated_at: Updated
     settings:
       activity_api_enabled:
-        desc_html: Counts of locally posted statuses, active users, and new registrations in weekly buckets
+        desc_html: Counts of locally posted statuses, active users, and new registrations
+          in weekly buckets
         title: Publish aggregate statistics about user activity
       bootstrap_timeline_accounts:
-        desc_html: Separate multiple usernames by comma. Only local and unlocked accounts will work. Default when empty is all local admins.
+        desc_html: Separate multiple usernames by comma. Only local and unlocked accounts
+          will work. Default when empty is all local admins.
         title: Default follows for new users
       contact_information:
         email: Business e-mail
@@ -391,23 +415,27 @@ en_GB:
         desc_html: Modify the look with CSS loaded on every page
         title: Custom CSS
       hero:
-        desc_html: Displayed on the frontpage. At least 600x100px recommended. When not set, falls back to server thumbnail
+        desc_html: Displayed on the frontpage. At least 600x100px recommended. When
+          not set, falls back to server thumbnail
         title: Hero image
       mascot:
-        desc_html: Displayed on multiple pages. At least 293×205px recommended. When not set, falls back to default mascot
+        desc_html: Displayed on multiple pages. At least 293×205px recommended. When
+          not set, falls back to default mascot
         title: Mascot image
       peers_api_enabled:
         desc_html: Domain names this server has encountered in the fediverse
         title: Publish list of discovered servers
       preview_sensitive_media:
-        desc_html: Link previews on other websites will display a thumbnail even if the media is marked as sensitive
+        desc_html: Link previews on other websites will display a thumbnail even if
+          the media is marked as sensitive
         title: Show sensitive media in OpenGraph previews
       profile_directory:
         desc_html: Allow users to be discoverable
         title: Enable profile directory
       registrations:
         closed_message:
-          desc_html: Displayed on frontpage when registrations are closed. You can use HTML tags
+          desc_html: Displayed on frontpage when registrations are closed. You can
+            use HTML tags
           title: Closed registration message
         deletion:
           desc_html: Allow anyone to delete their account
@@ -422,22 +450,29 @@ en_GB:
           open: Anyone can sign up
         title: Registrations mode
       show_known_fediverse_at_about_page:
-        desc_html: When toggled, it will show toots from all the known fediverse on preview. Otherwise it will only show local toots.
+        desc_html: When toggled, it will show toots from all the known fediverse on
+          preview. Otherwise it will only show local toots.
         title: Show known fediverse on timeline preview
       show_staff_badge:
         desc_html: Show a staff badge on a user page
         title: Show staff badge
       site_description:
-        desc_html: Introductory paragraph on the frontpage. Describe what makes this Mastodon server special and anything else important. You can use HTML tags, in particular <code>&lt;a&gt;</code> and <code>&lt;em&gt;</code>.
+        desc_html: Introductory paragraph on the frontpage. Describe what makes this
+          Mastodon server special and anything else important. You can use HTML tags,
+          in particular <code>&lt;a&gt;</code> and <code>&lt;em&gt;</code>.
         title: Server description
       site_description_extended:
-        desc_html: A good place for your code of conduct, rules, guidelines and other things that set your server apart. You can use HTML tags
+        desc_html: A good place for your code of conduct, rules, guidelines and other
+          things that set your server apart. You can use HTML tags
         title: Custom extended information
       site_short_description:
-        desc_html: Displayed in sidebar and meta tags. Describe what Mastodon is and what makes this server special in a single paragraph. If empty, defaults to server description.
+        desc_html: Displayed in sidebar and meta tags. Describe what Mastodon is and
+          what makes this server special in a single paragraph. If empty, defaults
+          to server description.
         title: Short server description
       site_terms:
-        desc_html: You can write your own privacy policy, terms of service or other legalese. You can use HTML tags
+        desc_html: You can write your own privacy policy, terms of service or other
+          legalese. You can use HTML tags
         title: Custom terms of service
       site_title: Server name
       thumbnail:
@@ -447,6 +482,12 @@ en_GB:
         desc_html: Display public timeline on landing page
         title: Timeline preview
       title: Site settings
+      max_toot_chars:
+        title: Max toot size
+        desc_html: 'Maximum toot length in characters (default: 500)'
+      max_bio_chars:
+        title: Max biography size
+        desc_html: 'Maximum biography length in characters (default: 500)'
     statuses:
       back_to_account: Back to account page
       batch:
@@ -482,9 +523,12 @@ en_GB:
       edit: Edit
       edit_preset: Edit warning preset
       title: Manage warning presets
+    pending_accounts:
+      title: Pending accounts (%{count})
   admin_mailer:
     new_pending_account:
-      body: The details of the new account are below. You can approve or reject this application.
+      body: The details of the new account are below. You can approve or reject this
+        application.
       subject: New account up for review on %{instance} (%{username})
     new_report:
       body: "%{reporter} has reported %{target}"
@@ -508,17 +552,21 @@ en_GB:
   auth:
     apply_for_account: Request an invite
     change_password: Password
-    checkbox_agreement_html: I agree to the <a href="%{rules_path}" target="_blank">server rules</a> and <a href="%{terms_path}" target="_blank">terms of service</a>
+    checkbox_agreement_html: I agree to the <a href="%{rules_path}" target="_blank">server
+      rules</a> and <a href="%{terms_path}" target="_blank">terms of service</a>
     confirm_email: Confirm email
     delete_account: Delete account
-    delete_account_html: If you wish to delete your account, you can <a href="%{path}">proceed here</a>. You will be asked for confirmation.
+    delete_account_html: If you wish to delete your account, you can <a href="%{path}">proceed
+      here</a>. You will be asked for confirmation.
     didnt_get_confirmation: Didn't receive confirmation instructions?
     forgot_password: Forgot your password?
-    invalid_reset_password_token: Password reset token is invalid or expired. Please request a new one.
+    invalid_reset_password_token: Password reset token is invalid or expired. Please
+      request a new one.
     login: Log in
     logout: Logout
     migrate_account: Move to a different account
-    migrate_account_html: If you wish to redirect this account to a different one, you can <a href="%{path}">configure it here</a>.
+    migrate_account_html: If you wish to redirect this account to a different one,
+      you can <a href="%{path}">configure it here</a>.
     or_log_in_with: Or log in with
     providers:
       cas: CAS
@@ -558,21 +606,28 @@ en_GB:
   deletes:
     bad_password_msg: Nice try, hackers! Incorrect password
     confirm_password: Enter your current password to verify your identity
-    description_html: This will <strong>permanently, irreversibly</strong> remove content from your account and deactivate it. Your username will remain reserved to prevent future impersonations.
+    description_html: This will <strong>permanently, irreversibly</strong> remove
+      content from your account and deactivate it. Your username will remain reserved
+      to prevent future impersonations.
     proceed: Delete account
     success_msg: Your account was successfully deleted
-    warning_html: Only deletion of content from this particular server is guaranteed. Content that has been widely shared is likely to leave traces. Offline servers and servers that have unsubscribed from your updates will not update their databases.
+    warning_html: Only deletion of content from this particular server is guaranteed.
+      Content that has been widely shared is likely to leave traces. Offline servers
+      and servers that have unsubscribed from your updates will not update their databases.
     warning_title: Disseminated content availability
   directories:
     directory: Profile directory
     enabled: You are currently listed in the directory.
-    enabled_but_waiting: You have opted-in to be listed in the directory, but you do not have the minimum number of followers (%{min_followers}) to be listed yet.
+    enabled_but_waiting: You have opted-in to be listed in the directory, but you
+      do not have the minimum number of followers (%{min_followers}) to be listed
+      yet.
     explanation: Discover users based on their interests
     explore_mastodon: Explore %{title}
-    how_to_enable: You are not currently opted-in to the directory. You can opt-in below. Use hashtags in your bio text to be listed under specific hashtags!
+    how_to_enable: You are not currently opted-in to the directory. You can opt-in
+      below. Use hashtags in your bio text to be listed under specific hashtags!
     people:
-      one: "%{count} person"
-      other: "%{count} people"
+      one: '%{count} person'
+      other: '%{count} people'
   errors:
     '403': You don't have permission to view this page.
     '404': The page you are looking for isn't here.
@@ -584,12 +639,16 @@ en_GB:
     '500':
       content: We're sorry, but something went wrong on our end.
       title: This page is not correct
-    noscript_html: To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the <a href="%{apps_path}">native apps</a> for Mastodon for your platform.
+    noscript_html: To use the Mastodon web application, please enable JavaScript.
+      Alternatively, try one of the <a href="%{apps_path}">native apps</a> for Mastodon
+      for your platform.
   exports:
     archive_takeout:
       date: Date
       download: Download your archive
-      hint_html: You can request an archive of your <strong>toots and uploaded media</strong>. The exported data will be in the ActivityPub format, readable by any compliant software. You can request an archive every 7 days.
+      hint_html: You can request an archive of your <strong>toots and uploaded media</strong>.
+        The exported data will be in the ActivityPub format, readable by any compliant
+        software. You can request an archive every 7 days.
       in_progress: Compiling your archive...
       request: Request your archive
       size: Size
@@ -614,7 +673,8 @@ en_GB:
       title: Edit filter
     errors:
       invalid_context: None or invalid context supplied
-      invalid_irreversible: Irreversible filtering only works with home or notifications context
+      invalid_irreversible: Irreversible filtering only works with home or notifications
+        context
     index:
       delete: Delete
       title: Filters
@@ -632,6 +692,7 @@ en_GB:
     validation_errors:
       one: Something isn't quite right yet! Please review the error below
       other: Something isn't quite right yet! Please review %{count} errors below
+    order_by: Order by
   identity_proofs:
     active: Active
     authorize: Yes, authorize
@@ -639,22 +700,32 @@ en_GB:
     errors:
       failed: The cryptographic connection failed. Please try again from %{provider}.
       keybase:
-        invalid_token: Keybase tokens are hashes of signatures and must be 66 hex characters
-        verification_failed: Keybase does not recognize this token as a signature of Keybase user %{kb_username}. Please retry from Keybase.
-    explanation_html: Here you can cryptographically connect your other identities, such as a Keybase profile. This lets other people send you encrypted messages and trust content you send them.
+        invalid_token: Keybase tokens are hashes of signatures and must be 66 hex
+          characters
+        verification_failed: Keybase does not recognize this token as a signature
+          of Keybase user %{kb_username}. Please retry from Keybase.
+      wrong_user: Cannot create a proof for %{proving} while logged in as %{current}.
+        Log in as %{proving} and try again.
+    explanation_html: Here you can cryptographically connect your other identities,
+      such as a Keybase profile. This lets other people send you encrypted messages
+      and trust content you send them.
     i_am_html: I am %{username} on %{service}.
     identity: Identity
     inactive: Inactive
     status: Verification status
     view_proof: View proof
+    publicize_toot: 'It is proven! I am %{username} on %{service}: %{url}'
+    publicize_checkbox: 'And toot this:'
   imports:
     modes:
       merge: Merge
       merge_long: Keep existing records and add new ones
       overwrite: Overwrite
       overwrite_long: Replace current records with the new ones
-    preface: You can import data that you have exported from another server, such as a list of the people you are following or blocking.
-    success: Your data was successfully uploaded and will now be processed in due time
+    preface: You can import data that you have exported from another server, such
+      as a list of the people you are following or blocking.
+    success: Your data was successfully uploaded and will now be processed in due
+      time
     types:
       blocking: Blocking list
       domain_blocking: Domain blocking list
@@ -677,7 +748,7 @@ en_GB:
     invited_by: 'You were invited by:'
     max_uses:
       one: 1 use
-      other: "%{count} uses"
+      other: '%{count} uses'
     max_uses_prompt: No limit
     prompt: Generate and share links with others to grant access to this server
     table:
@@ -701,14 +772,15 @@ en_GB:
   notification_mailer:
     digest:
       action: View all notifications
-      body: Here is a brief summary of the messages you missed since your last visit on %{since}
+      body: Here is a brief summary of the messages you missed since your last visit
+        on %{since}
       mention: "%{name} mentioned you in:"
       new_followers_summary:
         one: Also, you have acquired one new follower while being away! Yay!
         other: Also, you have acquired %{count} new followers while being away! Amazing!
       subject:
-        one: "1 new notification since your last visit \U0001F418"
-        other: "%{count} new notifications since your last visit \U0001F418"
+        one: 1 new notification since your last visit 🐘
+        other: '%{count} new notifications since your last visit 🐘'
       title: In your absence...
     favourite:
       body: 'Your status was favourited by %{name}:'
@@ -759,7 +831,10 @@ en_GB:
       too_few_options: must have more than one item
       too_many_options: can't contain more than %{max} items
   preferences:
+    one: Other
     other: Other
+    public_timelines: Public timelines
+    posting_defaults: Posting defaults
   relationships:
     activity: Account activity
     dormant: Dormant
@@ -771,13 +846,18 @@ en_GB:
     remove_selected_followers: Remove selected followers
     remove_selected_follows: Unfollow selected users
     status: Account status
+    most_recent: Most recent
+    last_active: Last active
   remote_follow:
     acct: Enter your username@domain you want to act from
     missing_resource: Could not find the required redirect URL for your account
-    no_account_html: Don't have an account? You can <a href='%{sign_up_path}' target='_blank'>sign up here</a>
+    no_account_html: Don't have an account? You can <a href='%{sign_up_path}' target='_blank'>sign
+      up here</a>
     proceed: Proceed to follow
     prompt: 'You are going to follow:'
-    reason_html: "<strong>Why is this step necessary?</strong> <code>%{instance}</code> might not be the server where you are registered, so we need to redirect you to your home server first."
+    reason_html: "<strong>Why is this step necessary?</strong> <code>%{instance}</code>\
+      \ might not be the server where you are registered, so we need to redirect you\
+      \ to your home server first."
   remote_interaction:
     favourite:
       proceed: Proceed to favourite
@@ -793,7 +873,8 @@ en_GB:
     title: Title
     unfollowed: Unfollowed
   scheduled_statuses:
-    over_daily_limit: You have exceeded the limit of %{limit} scheduled toots for that day
+    over_daily_limit: You have exceeded the limit of %{limit} scheduled toots for
+      that day
     over_total_limit: You have exceeded the limit of %{limit} scheduled toots
     too_soon: The scheduled date must be in the future
   sessions:
@@ -852,15 +933,20 @@ en_GB:
     preferences: Preferences
     relationships: Follows and followers
     two_factor_authentication: Two-factor Auth
+    profile: Profile
+    import_and_export: Import and export
+    appearance: Appearance
+    account_settings: Account settings
+    account: Account
   statuses:
     attached:
       description: 'Attached: %{attached}'
       image:
-        one: "%{count} image"
-        other: "%{count} images"
+        one: '%{count} image'
+        other: '%{count} images'
       video:
-        one: "%{count} video"
-        other: "%{count} videos"
+        one: '%{count} video'
+        other: '%{count} videos'
     boosted_from_html: Boosted from %{acct_link}
     content_warning: 'Content warning: %{warning}'
     disallowed_hashtags:
@@ -876,8 +962,8 @@ en_GB:
       reblog: A boost cannot be pinned
     poll:
       total_votes:
-        one: "%{count} vote"
-        other: "%{count} votes"
+        one: '%{count} vote'
+        other: '%{count} votes'
       vote: Vote
     show_more: Show more
     sign_in_to_participate: Sign in to participate in the conversation
@@ -986,30 +1072,46 @@ en_GB:
       month: "%b %Y"
   two_factor_authentication:
     code_hint: Enter the code generated by your authenticator app to confirm
-    description_html: If you enable <strong>two-factor authentication</strong>, logging in will require you to be in possession of your phone, which will generate tokens for you to enter.
+    description_html: If you enable <strong>two-factor authentication</strong>, logging
+      in will require you to be in possession of your phone, which will generate tokens
+      for you to enter.
     disable: Disable
     enable: Enable
     enabled: Two-factor authentication is enabled
     enabled_success: Two-factor authentication successfully enabled
     generate_recovery_codes: Generate recovery codes
-    instructions_html: "<strong>Scan this QR code into Google Authenticator or a similiar TOTP app on your phone</strong>. From now on, that app will generate tokens that you will have to enter when logging in."
-    lost_recovery_codes: Recovery codes allow you to regain access to your account if you lose your phone. If you've lost your recovery codes, you can regenerate them here. Your old recovery codes will be invalidated.
-    manual_instructions: 'If you can''t scan the QR code and need to enter it manually, here is the plain-text secret:'
+    instructions_html: "<strong>Scan this QR code into Google Authenticator or a similiar\
+      \ TOTP app on your phone</strong>. From now on, that app will generate tokens\
+      \ that you will have to enter when logging in."
+    lost_recovery_codes: Recovery codes allow you to regain access to your account
+      if you lose your phone. If you've lost your recovery codes, you can regenerate
+      them here. Your old recovery codes will be invalidated.
+    manual_instructions: 'If you can''t scan the QR code and need to enter it manually,
+      here is the plain-text secret:'
     recovery_codes: Backup recovery codes
     recovery_codes_regenerated: Recovery codes successfully regenerated
-    recovery_instructions_html: If you ever lose access to your phone, you can use one of the recovery codes below to regain access to your account. <strong>Keep the recovery codes safe</strong>. For example, you may print them and store them with other important documents.
+    recovery_instructions_html: If you ever lose access to your phone, you can use
+      one of the recovery codes below to regain access to your account. <strong>Keep
+      the recovery codes safe</strong>. For example, you may print them and store
+      them with other important documents.
     setup: Set up
     wrong_code: The entered code was invalid! Are server time and device time correct?
   user_mailer:
     backup_ready:
-      explanation: You requested a full backup of your Mastodon account. It's now ready for download!
+      explanation: You requested a full backup of your Mastodon account. It's now
+        ready for download!
       subject: Your archive is ready for download
       title: Archive takeout
     warning:
       explanation:
-        disable: While your account is frozen, your account data remains intact, but you cannot perform any actions until it is unlocked.
-        silence: While your account is limited, only people who are already following you will see your toots on this server, and you may be excluded from various public listings. However, others may still manually follow you.
-        suspend: Your account has been suspended, and all of your toots and your uploaded media files have been irreversibly removed from this server, and servers where you had followers.
+        disable: While your account is frozen, your account data remains intact, but
+          you cannot perform any actions until it is unlocked.
+        silence: While your account is limited, only people who are already following
+          you will see your toots on this server, and you may be excluded from various
+          public listings. However, others may still manually follow you.
+        suspend: Your account has been suspended, and all of your toots and your uploaded
+          media files have been irreversibly removed from this server, and servers
+          where you had followers.
       review_server_policies: Review server policies
       subject:
         disable: Your account %{acct} has been frozen
@@ -1023,19 +1125,32 @@ en_GB:
         suspend: Account suspended
     welcome:
       edit_profile_action: Setup profile
-      edit_profile_step: You can customize your profile by uploading an avatar, header, changing your display name and more. If you’d like to review new followers before they’re allowed to follow you, you can lock your account.
+      edit_profile_step: You can customize your profile by uploading an avatar, header,
+        changing your display name and more. If you’d like to review new followers
+        before they’re allowed to follow you, you can lock your account.
       explanation: Here are some tips to get you started
       final_action: Start posting
-      final_step: 'Start posting! Even without followers your public messages may be seen by others, for example on the local timeline and in hashtags. You may want to introduce yourself on the #introductions hashtag.'
+      final_step: 'Start posting! Even without followers your public messages may
+        be seen by others, for example on the local timeline and in hashtags. You
+        may want to introduce yourself on the #introductions hashtag.'
       full_handle: Your full handle
-      full_handle_hint: This is what you would tell your friends so they can message or follow you from another server.
+      full_handle_hint: This is what you would tell your friends so they can message
+        or follow you from another server.
       review_preferences_action: Change preferences
-      review_preferences_step: Make sure to set your preferences, such as which emails you'd like to receive, or what privacy level you’d like your posts to default to. If you don’t have motion sickness, you could choose to enable GIF autoplay.
+      review_preferences_step: Make sure to set your preferences, such as which emails
+        you'd like to receive, or what privacy level you’d like your posts to default
+        to. If you don’t have motion sickness, you could choose to enable GIF autoplay.
       subject: Welcome to Mastodon
-      tip_federated_timeline: The federated timeline is a firehose view of the Mastodon network. But it only includes people your neighbours are subscribed to, so it's not complete.
-      tip_following: You follow your server's admin(s) by default. To find more interesting people, check the local and federated timelines.
-      tip_local_timeline: The local timeline is a firehose view of people on %{instance}. These are your immediate neighbours!
-      tip_mobile_webapp: If your mobile browser offers you to add Mastodon to your homescreen, you can receive push notifications. It acts like a native app in many ways!
+      tip_federated_timeline: The federated timeline is a firehose view of the Mastodon
+        network. But it only includes people your neighbours are subscribed to, so
+        it's not complete.
+      tip_following: You follow your server's admin(s) by default. To find more interesting
+        people, check the local and federated timelines.
+      tip_local_timeline: The local timeline is a firehose view of people on %{instance}.
+        These are your immediate neighbours!
+      tip_mobile_webapp: If your mobile browser offers you to add Mastodon to your
+        homescreen, you can receive push notifications. It acts like a native app
+        in many ways!
       tips: Tips
       title: Welcome aboard, %{name}!
   users:
@@ -1043,8 +1158,27 @@ en_GB:
     invalid_email: The e-mail address is invalid
     invalid_otp_token: Invalid two-factor code
     otp_lost_help_html: If you lost access to both, you may get in touch with %{email}
-    seamless_external_login: You are logged in via an external service, so password and e-mail settings are not available.
+    seamless_external_login: You are logged in via an external service, so password
+      and e-mail settings are not available.
     signed_in_as: 'Signed in as:'
   verification:
-    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Mastodon profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in
+      your profile metadata</strong>. For that, the linked website must contain a
+      link back to your Mastodon profile. The link back <strong>must</strong> have
+      a <code>rel="me"</code> attribute. The text content of the link does not matter.
+      Here is an example:'
     verification: Verification
+  html_validator:
+    invalid_markup: 'contains invalid HTML markup: %{error}'
+  existing_username_validator:
+    not_found_multiple: could not find %{usernames}
+    not_found: could not find a local user with that username
+  appearance:
+    sensitive_content: Sensitive content
+    confirmation_dialogs: Confirmation dialogues
+    animations_and_accessibility: Animations and accessibility
+    advanced_web_interface_hint: 'If you want to make use of your entire screen width,
+      the advanced web interface allows you to configure as many different columns
+      to see as much information at the same time as you want: Home, notifications,
+      federated timeline, any number of lists and hashtags.'
+    advanced_web_interface: Advanced web interface
