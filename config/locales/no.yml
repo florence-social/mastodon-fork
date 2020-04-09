@@ -114,8 +114,8 @@
       redownload: Oppdater avatar
       resend_confirmation:
         already_confirmed: Denne brukeren er allerede bekreftet
-        send: Send bekreftelses-epost på nytt
-        success: Bekreftelses e-post er vellykket sendt!
+        send: Send bekreftelses-e-post på ny
+        success: Bekreftelses-e-post sendt.
       reset: Tilbakestill
       reset_password: Nullstill passord
       resubscribe: Abonner på nytt
