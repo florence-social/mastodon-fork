@@ -87,11 +87,11 @@ en_GB:
       avatar: Avatar
       by_domain: Domain
       change_email:
-        changed_msg: Account e-mail address changed.
-        current_email: Current e-mail address
-        label: Change e-mail address
-        new_email: New e-mail address
-        submit: Change e-mail address
+        changed_msg: Account e-mail successfully changed!
+        current_email: Current e-mail
+        label: Change e-mail
+        new_email: New e-mail
+        submit: Change e-mail
         title: Change e-mail for %{username}
       confirm: Confirm
       confirmed: Confirmed
@@ -152,7 +152,7 @@ en_GB:
       resend_confirmation:
         already_confirmed: This user is already confirmed
         send: Resend confirmation e-mail
-        success: Confirmation e-mail sent.
+        success: Confirmation e-mail successfully sent!
       reset: Reset
       reset_password: Reset password
       resubscribe: Resubscribe
@@ -174,7 +174,7 @@ en_GB:
       subscribe: Subscribe
       suspended: Suspended
       title: Accounts
-      unconfirmed_email: Unconfirmed e-mail address
+      unconfirmed_email: Unconfirmed e-mail
       undo_silenced: Undo silence
       undo_suspension: Undo suspension
       unsubscribe: Unsubscribe
@@ -188,16 +188,16 @@ en_GB:
     action_logs:
       actions:
         assigned_to_self_report: "%{name} assigned report %{target} to themselves"
-        change_email_user: '%{name} changed the e-mail address of %{target}'
+        change_email_user: '%{name} changed the e-mail address of user %{target}'
         confirm_user: "%{name} confirmed e-mail address of user %{target}"
         create_account_warning: "%{name} sent a warning to %{target}"
         create_custom_emoji: "%{name} uploaded new emoji %{target}"
         create_domain_block: "%{name} blocked domain %{target}"
-        create_email_domain_block: '%{name} blacklisted the e-mail domain %{target}'
+        create_email_domain_block: '%{name} blacklisted e-mail domain %{target}'
         demote_user: "%{name} demoted user %{target}"
         destroy_custom_emoji: "%{name} destroyed emoji %{target}"
         destroy_domain_block: "%{name} unblocked domain %{target}"
-        destroy_email_domain_block: '%{name} whitelisted the e-mail domain %{target}'
+        destroy_email_domain_block: '%{name} whitelisted e-mail domain %{target}'
         destroy_status: "%{name} removed status by %{target}"
         disable_2fa_user: "%{name} disabled two factor requirement for user %{target}"
         disable_custom_emoji: "%{name} disabled emoji %{target}"
@@ -313,7 +313,7 @@ en_GB:
       add_new: Add new
       created_msg: Successfully added e-mail domain to blacklist
       delete: Delete
-      destroyed_msg: E-mail domain deleted from blacklist
+      destroyed_msg: Successfully deleted e-mail domain from blacklist
       domain: Domain
       new:
         create: Add domain
@@ -409,7 +409,7 @@ en_GB:
           will work. Default when empty is all local admins.
         title: Default follows for new users
       contact_information:
-        email: Contact e-mail address
+        email: Contact e-mail
         username: Contact username
       custom_css:
         desc_html: Modify the look with CSS loaded on every page
@@ -554,7 +554,7 @@ en_GB:
     change_password: Password
     checkbox_agreement_html: I agree to the <a href="%{rules_path}" target="_blank">server
       rules</a> and <a href="%{terms_path}" target="_blank">terms of service</a>
-    confirm_email: Confirm e-mail address
+    confirm_email: Confirm e-mail
     delete_account: Delete account
     delete_account_html: If you wish to delete your account, you can <a href="%{path}">proceed
       here</a>. You will be asked for confirmation.
@@ -1001,7 +1001,7 @@ en_GB:
       \ in them, and direct posts are delivered only to users mentioned in them. In\
       \ some cases it means they are delivered to different servers and copies are\
       \ stored there. We make a good faith effort to limit the access to those posts\
-      \ only to authorised persons, but other servers may fail to do so. Therefore\
+      \ only to authorized persons, but other servers may fail to do so. Therefore\
       \ it's important to review servers your followers belong to. You may toggle\
       \ an option to approve and reject new followers manually in the settings. <em>Please\
       \ keep in mind that the operators of the server and any receiving server may\
@@ -1017,10 +1017,10 @@ en_GB:
       \ the following ways:</p>\n\n<ul>\n  <li>To provide the core functionality of\
       \ Mastodon. You can only interact with other people's content and post your\
       \ own content when you are logged in. For example, you may follow other people\
-      \ to view their combined posts in your own personalised home timeline.</li>\n\
+      \ to view their combined posts in your own personalized home timeline.</li>\n\
       \  <li>To aid moderation of the community, for example comparing your IP address\
       \ with other known ones to determine ban evasion or other violations.</li>\n\
-      \  <li>The e-mail address you provide may be used to send you information, notifications\
+      \  <li>The email address you provide may be used to send you information, notifications\
       \ about other people interacting with your content or sending you messages,\
       \ and to respond to inquiries, and/or other requests or questions.</li>\n</ul>\n\
       \n<hr class=\"spacer\" />\n\n<h3 id=\"protect\">How do we protect your information?</h3>\n\
@@ -1040,7 +1040,7 @@ en_GB:
       \ account at any time.</p>\n\n<hr class=\"spacer\"/>\n\n<h3 id=\"cookies\">Do\
       \ we use cookies?</h3>\n\n<p>Yes. Cookies are small files that a site or its\
       \ service provider transfers to your computer's hard drive through your Web\
-      \ browser (if you allow). These cookies enable the site to recognise your browser\
+      \ browser (if you allow). These cookies enable the site to recognize your browser\
       \ and, if you have a registered account, associate it with your registered account.</p>\n\
       \n<p>We use cookies to understand and save your preferences for future visits.</p>\n\
       \n<hr class=\"spacer\" />\n\n<h3 id=\"disclose\">Do we disclose any information\
@@ -1055,7 +1055,7 @@ en_GB:
       \ followers-only posts are delivered to the servers where your followers reside,\
       \ and direct messages are delivered to the servers of the recipients, in so\
       \ far as those followers or recipients reside on a different server than this.</p>\n\
-      \n<p>When you authorise an application to use your account, depending on the\
+      \n<p>When you authorize an application to use your account, depending on the\
       \ scope of permissions you approve, it may access your public profile information,\
       \ your following list, your followers, your lists, all your posts, and your\
       \ favourites. Applications can never access your e-mail address or password.</p>\n\
@@ -1150,10 +1150,9 @@ en_GB:
       full_handle_hint: This is what you would tell your friends so they can message
         or follow you from another server.
       review_preferences_action: Change preferences
-      review_preferences_step: Make sure to set your preferences, such as which e-mail
-        addresses you'd like to receive, or what privacy level you’d like your posts
-        to default to. If you don’t have motion sickness, you could choose to enable
-        GIF autoplay.
+      review_preferences_step: Make sure to set your preferences, such as which e-mails
+        you'd like to receive, or what privacy level you’d like your posts to default
+        to. If you don’t have motion sickness, you could choose to enable GIF autoplay.
       subject: Welcome to Mastodon
       tip_federated_timeline: The federated timeline is a firehose view of the Mastodon
         network. But it only includes people your neighbours are subscribed to, so
