@@ -105,8 +105,8 @@ en:
       display_name: Display name
       domain: Domain
       edit: Edit
-      email: E-mail
-      email_status: E-mail status
+      email: Email
+      email_status: Email status
       enable: Enable
       enabled: Enabled
       feed_url: Feed URL
@@ -154,7 +154,7 @@ en:
       remove_header: Remove header
       resend_confirmation:
         already_confirmed: This user is already confirmed
-        send: Resend confirmation e-mail
+        send: Resend confirmation email
         success: Confirmation e-mail sent.
       reset: Reset
       reset_password: Reset password
