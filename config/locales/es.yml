@@ -4,8 +4,7 @@ es:
     about_hashtag_html: Estos son toots públicos etiquetados con <strong>#%{hashtag}</strong>. Puedes interactuar con ellos si tienes una cuenta en cualquier parte del fediverso.
     about_mastodon_html: Mastodon es un servidor de red social <em>libre y de código abierto</em>. Una alternativa <em>descentralizada</em> a plataformas comerciales, que evita el riesgo de que una única compañía monopolice su comunicación. Cualquiera puede ejecutar Mastodon y participar sin problemas en la <em>red social</em>.
     about_this: Acerca de esta instancia
-    active_count_after: activos
-    active_footnote: Usuarios activos mensuales (MAU)
+    active_count_after: activo
     administered_by: 'Administrado por:'
     api: API
     apps: Aplicaciones móviles
@@ -50,7 +49,7 @@ es:
     joined: Se unió el %{date}
     last_active: última conexión
     link_verified_on: La propiedad de este vínculo fue verificada el %{date}
-    media: Archivos
+    media: Multimedia
     moved_html: "%{name} se ha trasladado a %{new_profile_link}:"
     network_hidden: Esta información no está disponible
     nothing_here: "¡No hay nada aquí!"
@@ -66,7 +65,7 @@ es:
     reserved_username: El nombre de usuario está reservado
     roles:
       admin: Administrador
-      bot: Robot
+      bot: Bot
       moderator: Moderador
     unavailable: Perfil no disponible
     unfollow: Dejar de seguir
@@ -115,7 +114,6 @@ es:
       inbox_url: URL de la bandeja de entrada
       invited_by: Invitado por
       ip: IP
-      joined: Se unió
       location:
         all: Todos
         local: Local
@@ -149,7 +147,7 @@ es:
       reject: Rechazar
       reject_all: Rechazar todos
       remove_avatar: Eliminar el avatar
-      remove_header: Eliminar el encabezado
+      remove_header: Eliminar cabecera
       resend_confirmation:
         already_confirmed: Este usuario ya está confirmado
         send: Reenviar el correo electrónico de confirmación
@@ -174,7 +172,7 @@ es:
       statuses: Estados
       subscribe: Suscribir
       suspended: Susependido
-      time_in_queue: Esperando en fila %{time}
+      time_in_queue: Esperando en cola %{time}
       title: Cuentas
       unconfirmed_email: Correo electrónico sin confirmar
       undo_silenced: Des-silenciar
@@ -282,13 +280,12 @@ es:
         title: Nuevo bloque de dominio
       reject_media: Rechazar archivos multimedia
       reject_media_hint: Remueve localmente archivos multimedia almacenados para descargar cualquiera en el futuro. Irrelevante para suspensiones
-      reject_reports: Rechazar denuncias
-      reject_reports_hint: Ignorar todas las denuncias de este dominio. Irrelevante para suspensiones
-      rejecting_media: rechazando archivos multimedia
-      rejecting_reports: rechazando denuncias
+      reject_reports: Rechazar informes
+      reject_reports_hint: Ignore todos los reportes de este dominio. Irrelevante para suspensiones
+      rejecting_media: rechazar archivos multimedia
       severity:
         silence: silenciado
-        suspend: suspendido
+        suspend: susependido
       show:
         affected_accounts:
           one: Una cuenta en la base de datos afectada
@@ -310,24 +307,18 @@ es:
         title: Nueva entrada en la lista negra de correo
       title: Lista negra de correo
     followers:
-      back_to_account: Regresar A Cuenta
-      title: Seguidores de %{acct}
+      back_to_account: Volver a la cuenta
     instances:
       by_domain: Dominio
-      delivery_available: Distribución está disponible
-      known_accounts:
-        one: "%{count} cuenta conocida"
-        other: "%{count} cuentas conocidas"
       moderation:
-        all: Todo
+        all: Todos
         limited: Limitado
         title: Moderación
       title: Instancias conocidas
       total_blocked_by_us: Bloqueado por nosotros
-      total_followed_by_them: Seguido por ellos
+      total_followed_by_them: Seguidos por ellos
       total_followed_by_us: Seguido por nosotros
-      total_reported: Denuncias sobre ellos
-      total_storage: Archivos adjuntos
+      total_storage: Archivos multimedia
     invites:
       deactivate_all: Desactivar todos
       filter:
@@ -432,10 +423,8 @@ es:
           title: Permitir invitaciones de
       registrations_mode:
         modes:
-          approved: Aprobación requerida para registrarse
           none: Nadie puede registrarse
           open: Cualquiera puede registrarse
-        title: Modo de registraciones
       show_known_fediverse_at_about_page:
         desc_html: Cuando esté activado, se mostrarán toots de todo el fediverso conocido en la vista previa. En otro caso, se mostrarán solamente toots locales.
         title: Mostrar fediverso conocido en la vista previa de la historia
@@ -619,7 +608,6 @@ es:
       size: Tamaño
     blocks: Personas que has bloqueado
     csv: CSV
-    domain_blocks: Bloques de dominio
     follows: Personas que sigues
     lists: Listas
     mutes: Tienes en silencio
@@ -649,7 +637,7 @@ es:
     more: Más…
     resources: Recursos
   generic:
-    all: Todo
+    all: Todos
     changes_saved_msg: "¡Cambios guardados con éxito!"
     copy: Copiar
     order_by: Ordenar por
@@ -666,24 +654,17 @@ es:
     errors:
       failed: La conexión criptográfica falló. Por favor, inténtelo de nuevo desde %{provider}.
       keybase:
-        invalid_token: Los identificadores de Keybase son resumenes criptográficos de firmas y deben ser 66 carácteres hexadecimales
-        verification_failed: Keybase no reconoce este identificador como una firma del usuario de Keybase %{kb_username}. Por favor, inténtelo de nuevo desde Keybase.
-      wrong_user: No se puede crear una prueba para %{proving} mientras conectado como %{current}. Conectese como %{proving} e intente de nuevo.
-    explanation_html: Aquí puede conectar criptograficamente a sus otras identidades, como un perfil de Keybase. Esto deja que otras personas les mande mensajes cifrados y confiar en el contenido que reciban de usted.
-    i_am_html: Soy %{username} en %{service}.
+        invalid_token: Los tokens de Keybase son hashes de firmas y deben tener 66 caracteres hex
+        verification_failed: Keybase no reconoce este token como una firma del usuario de Keybase %{kb_username}. Por favor, inténtelo de nuevo desde Keybase.
     identity: Identidad
     inactive: Inactivo
-    publicize_checkbox: 'E incluye esto:'
-    publicize_toot: "¡Está comprobado! Soy %{username} en %{service}: %{url}"
-    status: Estado de verificación
+    status: Estado de la verificación
     view_proof: Ver prueba
   imports:
     modes:
       merge: Unir
-      merge_long: Mantener registros actuales y agregar nuevos
       overwrite: Sobrescribir
-      overwrite_long: Reemplazar registros actuales con los nuevos
-    preface: Puede importar ciertos datos, como todas las personas que está siguiendo o bloqueando en su cuenta en esta instancia, desde archivos exportados de otra instancia.
+    preface: Puedes importar ciertos datos, como todas las personas que estás siguiendo o bloqueando en tu cuenta en esta instancia, desde archivos exportados de otra instancia.
     success: Sus datos se han cargado correctamente y serán procesados en brevedad
     types:
       blocking: Lista de bloqueados
@@ -791,21 +772,9 @@ es:
       too_many_options: no puede tener mas de %{max} opciones
   preferences:
     other: Otros
-    posting_defaults: Condición base de publicación
-    public_timelines: Cronologías públicas
   relationships:
-    activity: Actividad de cuenta
-    dormant: Latente
-    last_active: Última vez activo
+    last_active: Última actividad
     most_recent: Más reciente
-    moved: Movido
-    mutual: Recíproco
-    primary: Primario
-    relationship: Relación
-    remove_selected_domains: Eliminar todos los seguidores de los dominios seleccionados
-    remove_selected_followers: Eliminar los seguidores seleccionados
-    remove_selected_follows: Dejar de seguir los usuarios seleccionados
-    status: Estado de cuenta
   remote_follow:
     acct: Ingrese su usuario@dominio desde donde quiere seguir
     missing_resource: No se pudo encontrar la URL de redirección requerida para su cuenta
@@ -841,20 +810,20 @@ es:
       edge: Microsoft Edge
       electron: Electron
       firefox: Firefox
-      generic: Navegador desconocido
+      generic: Desconocido
       ie: Internet Explorer
       micro_messenger: MicroMessenger
-      nokia: Nokia S40 Ovi Browser
+      nokia: Navegador de Nokia S40 Ovi
       opera: Opera
       otter: Otter
       phantom_js: PhantomJS
-      qq: QQ Browser
+      qq: Navegador QQ
       safari: Safari
       uc_browser: UCBrowser
       weibo: Weibo
     current_session: Sesión actual
     description: "%{browser} en %{platform}"
-    explanation: Estos son los navegadores web conectados actualmente en su cuenta de Mastodon.
+    explanation: Estos son los navegadores web conectados actualmente en tu cuenta de Mastodon.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -865,7 +834,7 @@ es:
       ios: iOS
       linux: Linux
       mac: Mac
-      other: Plataforma desconocida
+      other: Desconocido
       windows: Windows
       windows_mobile: Windows Mobile
       windows_phone: Windows Phone
@@ -874,7 +843,7 @@ es:
     title: Sesiones
   settings:
     account: Cuenta
-    account_settings: Configuraciones de la cuenta
+    account_settings: Ajustes de la cuenta
     appearance: Apariencia
     authorized_apps: Aplicaciones autorizadas
     back: Volver al inicio
@@ -882,8 +851,7 @@ es:
     development: Desarrollo
     edit_profile: Editar perfil
     export: Exportar información
-    featured_tags: Etiquetas destacadas
-    identity_proofs: Pruebas de identidad
+    featured_tags: Hashtags destacados
     import: Importar
     import_and_export: Importar y exportar
     migrate: Migración de cuenta

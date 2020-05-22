@@ -13,19 +13,19 @@ module Mastodon
     end
 
     def patch
-      0
-    end
-
-    def pre
-      nil
+      4
     end
 
     def flags
       ''
     end
 
+    def suffix
+      ''
+    end
+
     def to_a
-      [major, minor, patch, pre].compact
+      [major, minor, patch].compact
     end
 
     def suffix

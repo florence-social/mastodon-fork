@@ -557,6 +557,7 @@
 
     .compose-form__upload-thumbnail {
       border-radius: 4px;
+      background-color: $base-shadow-color;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -3993,6 +3994,11 @@ a.status-card.compact:hover {
     color: lighten($secondary-text-color, 4%);
     text-decoration: underline;
   }
+}
+
+.search-results__info {
+  padding: 10px;
+  color: $secondary-text-color;
 }
 
 .modal-root {
