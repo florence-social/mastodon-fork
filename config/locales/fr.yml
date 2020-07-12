@@ -100,7 +100,7 @@ fr:
       deleted: Supprimé
       demote: Rétrograder
       disable: Désactiver
-      disable_two_factor_authentication: Désactiver l’authentification à deux facteurs
+      disable_two_factor_authentication: Désactiver l’A2F
       disabled: Désactivé
       display_name: Nom affiché
       domain: Domaine
