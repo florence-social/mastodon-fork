@@ -6,7 +6,7 @@ it:
       e software liberi. È decentrato, come la posta elettronica.
     about_this: A proposito di questo server
     active_count_after: attivo
-    active_footnote: Utenti Attivi Mensili (MAU)
+    active_footnote: Utenti attivi mensili (MAU)
     administered_by: 'Amministrato da:'
     apps: Applicazioni mobili
     apps_platforms: Usa Mastodon da iOS, Android e altre piattaforme
@@ -18,20 +18,22 @@ it:
       <h3>Un buon posto per le regole</h3>
       <p>La descrizione estesa non è ancora stata preparata.</p>
     generic_description: "%{domain} è un server nella rete"
-    get_apps: Prova l'app per smartphone
+    get_apps: Prova l'app mobile
     hosted_on: Mastodon ospitato su %{domain}
     learn_more: Scopri altro
     privacy_policy: Politica della privacy
     source_code: Codice sorgente
     status_count_before: Che hanno pubblicato
     tagline: Segui vecchi amici e trovane nuovi
-    terms: Termini di Servizio
+    terms: Termini di servizio
     user_count_after:
       one: utente
       other: utenti
     user_count_before: Home di
     what_is_mastodon: Che cos'è Mastodon?
     api: API
+    server_stats: 'Statistiche del server:'
+    see_whats_happening: Vedi cosa sta succedendo
   accounts:
     choices_html: 'Suggerimenti da %{name}:'
     follow: Segui
@@ -55,7 +57,13 @@ it:
     roles:
       admin: Amministratore
       moderator: Moderatore
+      bot: Bot
     unfollow: Non seguire più
+    unavailable: Profilo non disponibile
+    posts:
+      one: Toot
+      other: Toot
+    media: Media
   admin:
     account_actions:
       action: Esegui azione
@@ -66,7 +74,7 @@ it:
       delete: Elimina
       destroyed_msg: Nota di moderazione distrutta con successo!
     accounts:
-      are_you_sure: Sei sicuro?
+      are_you_sure: Sei sicuro/a?
       by_domain: Dominio
       change_email:
         changed_msg: Account email cambiato con successo!
@@ -86,7 +94,7 @@ it:
       display_name: Nome visualizzato
       domain: Dominio
       edit: Modifica
-      email_status: Stato e-mail
+      email_status: Stato email
       enable: Abilita
       enabled: Abilitato
       feed_url: URL Feed
@@ -102,7 +110,7 @@ it:
         local: Locale
         remote: Remoto
         title: Luogo
-      login_status: Stato login
+      login_status: Stato accesso
       media_attachments: Media allegati
       memorialize: Trasforma in memoriam
       moderation:
@@ -157,7 +165,11 @@ it:
       unsubscribe: Annulla l'iscrizione
       username: Nome utente
       warn: Avverti
-      email: E-mail
+      email: Email
+      ip: IP
+      avatar: Avatar
+      approve_all: Approva tutto
+      approve: Approva
     action_logs:
       actions:
         assigned_to_self_report: "%{name} ha assegnato il rapporto %{target} a se\
