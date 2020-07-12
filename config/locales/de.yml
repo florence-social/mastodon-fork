@@ -125,7 +125,7 @@ de:
         local: Lokal
         remote: Fern
         title: Ursprung
-      login_status: Loginstatus
+      login_status: Anmeldungsstatus
       media_attachments: Dateien
       memorialize: In Gedenkmal verwandeln
       moderation:
@@ -1196,10 +1196,10 @@ de:
     follow_limit_reached: Du kannst nicht mehr als %{limit} Leuten folgen
     invalid_email: Ungültige E-Mail-Adresse
     invalid_otp_token: Ungültiger Zwei-Faktor-Authentisierungs-Code
-    otp_lost_help_html: Wenn Du beides nicht mehr weißt, melde Dich bei uns unter
-      der E-Mailadresse %{email}
+    otp_lost_help_html: Wenn du beides nicht mehr weißt, melde dich bei uns unter
+      der E-Mail-Adresse %{email}
     seamless_external_login: Du bist angemeldet über einen Drittanbieter-Dienst, weswegen
-      Passwort- und E-Maileinstellungen nicht verfügbar sind.
+      Passwort- und E-Mail-Einstellungen nicht verfügbar sind.
     signed_in_as: 'Angemeldet als:'
   verification:
     explanation_html: 'Du kannst <strong>bestätigen, dass die Links in deinen Profil-Metadaten
