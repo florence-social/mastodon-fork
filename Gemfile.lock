@@ -289,7 +289,7 @@ GEM
     iso-639 (0.2.8)
     jaro_winkler (1.5.2)
     jmespath (1.4.0)
-    json (2.1.0)
+    json (2.3.1)
     json-ld (3.0.2)
       multi_json (~> 1.12)
       rdf (>= 2.2.8, < 4.0)
