@@ -1,7 +1,11 @@
----
 hr:
   about:
-    about_mastodon_html: Mastodon je <em>besplatna, open-source</em> socijalna mreža. <em>Decentralizirana</em> alternativa komercijalnim platformama, izbjegava rizik toga da jedna tvrtka monopolizira vašu komunikaciju. Izaberite server kojem ćete vjerovati &mdash; koji god odabrali, moći ćete komunicirati sa svima ostalima. Bilo tko može imati svoju vlastitu Mastodon instancu i sudjelovati u <em>socijalnoj mreži</em> bez problema.
+    about_mastodon_html: Mastodon je <em>besplatna, open-source</em> socijalna mreža.
+      <em>Decentralizirana</em> alternativa komercijalnim platformama, izbjegava rizik
+      toga da jedna tvrtka monopolizira vašu komunikaciju. Izaberite server kojem
+      ćete vjerovati &mdash; koji god odabrali, moći ćete komunicirati sa svima ostalima.
+      Bilo tko može imati svoju vlastitu Mastodon instancu i sudjelovati u <em>socijalnoj
+      mreži</em> bez problema.
     about_this: O ovoj instanci
     contact: Kontakt
     source_code: Izvorni kod
@@ -44,12 +48,10 @@ hr:
       x_months: "%{count}mj"
       x_seconds: "%{count}sek"
   errors:
-    '403': You don't have permission to view this page.
-    '404': The page you are looking for isn't here.
-    '410': The page you were looking for doesn't exist here anymore.
-    '422': 
+    '403': Nemaš dozvole za prikaz ove stranice.
+    '404': Stranica koju tražiš nije ovdje.
+    '410': Stranica koju tražiš ovdje više ne postoji.
     '429': Throttled
-    '500': 
   exports:
     blocks: Blokirao si
     follows: Slijediš
@@ -58,7 +60,9 @@ hr:
     changes_saved_msg: Izmjene su uspješno sačuvane!
     save_changes: Sačuvaj izmjene
   imports:
-    preface: Možeš uvesti određene podatke kao što su svi ljudi koje slijediš ili blokiraš u svoj račun na ovoj instanci, sa fajlova kreiranih izvozom sa druge instance.
+    preface: Možeš uvesti određene podatke kao što su svi ljudi koje slijediš ili
+      blokiraš u svoj račun na ovoj instanci, sa fajlova kreiranih izvozom sa druge
+      instance.
     success: Tvoji podaci su uspješno uploadani i bit će obrađeni u dogledno vrijeme
     types:
       blocking: Lista blokiranih
@@ -66,12 +70,15 @@ hr:
       muting: Lista utišanih
   invites:
     expires_in:
-      '1800': 30 minutes
-      '21600': 6 hours
-      '3600': 1 hour
-      '43200': 12 hours
-      '604800': 1 week
-      '86400': 1 day
+      '1800': 30 minuta
+      '21600': 6 sati
+      '3600': 1 sat
+      '43200': 12 sati
+      '604800': 1 tjedan
+      '86400': 1 dan
+    expires_in_prompt: Nikada
+    generate: Generiraj
+    max_uses_prompt: Bez ograničenja
   notification_mailer:
     digest:
       body: Ovo je kratak sažetak propuštenog od tvog prošlog posjeta %{since}
@@ -119,10 +126,14 @@ hr:
     reblogged: potaknut
     sensitive_content: Osjetljivi sadržaj
   two_factor_authentication:
-    description_html: Ako omogućiš <strong>dvo-faktorsku autentifikaciju</strong>, prijavljivanje će zahtjevati da kod sebe imaš svoj mobitel, koji će generirati tokene koje ćeš unijeti.
+    description_html: Ako omogućiš <strong>dvo-faktorsku autentifikaciju</strong>,
+      prijavljivanje će zahtjevati da kod sebe imaš svoj mobitel, koji će generirati
+      tokene koje ćeš unijeti.
     disable: Onemogući
     enable: Omogući
-    instructions_html: "<strong>Skeniraj ovaj QR kod u Google Authenticator ili sličnu aplikaciju na svom telefonu</strong>. Od sada, ta aplikacija će generirati tokene koje ćeš unijeti pri prijavljivanju."
+    instructions_html: "<strong>Skeniraj ovaj QR kod u Google Authenticator ili sličnu\
+      \ aplikaciju na svom telefonu</strong>. Od sada, ta aplikacija će generirati\
+      \ tokene koje ćeš unijeti pri prijavljivanju."
   users:
     invalid_email: E-mail adresa nije valjana
     invalid_otp_token: Nevaljani dvo-faktorski kod
